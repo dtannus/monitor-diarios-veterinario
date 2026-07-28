@@ -1,0 +1,142 @@
+from rede import baixar_pagina, resolver_url_pdf
+from executor import executar
+from controle import ultima_edicao
+import re
+
+URL = "https://www.vinhedo.sp.gov.br/portal/diario-oficial"
+
+
+def analisar_edicao(numero, data, url_pdf):
+    executar("Vinhedo", numero, data, url_pdf)
+
+
+def extrair_edicoes(html):
+
+    BASE = "https://www.vinhedo.sp.gov.br"
+
+    blocos = re.findall(
+        r'<div class="dof_publicacao_diario sw_item_listagem".*?</a>\s*</div>',
+        html,
+        re.DOTALL
+    )
+
+    edicoes = []
+
+    for bloco in blocos:
+
+        numero = re.search(
+            r'Edição nº\s*(\d+)',
+            bloco,
+            re.IGNORECASE
+        )
+
+        data = re.search(
+            r'Postagem:</strong>\s*<span>(.*?)</span>',
+            bloco,
+            re.DOTALL | re.IGNORECASE
+        )
+
+        download = re.search(
+            r'data-href="([^"]+)"',
+            bloco,
+            re.IGNORECASE
+        )
+
+        if not (numero and data and download):
+            continue
+
+        numero = int(numero.group(1))
+        data = data.group(1).strip()
+
+        url_download = download.group(1)
+
+        if url_download.startswith("/"):
+            url_download = BASE + url_download
+
+        edicoes.append(
+            (
+                numero,
+                data,
+                url_download
+            )
+        )
+
+    edicoes.sort(key=lambda x: x[0])
+
+    return edicoes
+
+
+def buscar():
+
+    print("Acessando Diário Oficial de Vinhedo...")
+
+    html = baixar_pagina(URL)
+
+    if not html:
+        print("❌ Não foi possível acessar o portal.")
+        return
+
+    ultima = ultima_edicao("Vinhedo")
+
+    print(f"Última edição analisada: {ultima}")
+
+    edicoes = extrair_edicoes(html)
+
+    if not edicoes:
+        print("❌ Nenhuma edição encontrada.")
+        return
+
+    novas = [
+        e for e in edicoes
+        if ultima is None or e[0] > ultima
+    ]
+
+    if not novas:
+        print("✅ Nenhuma edição nova.")
+        return
+
+    print(f"Foram encontradas {len(novas)} edição(ões) nova(s).")
+
+    for numero, data, url_download in novas:
+
+        url_pdf = resolver_url_pdf(url_download)
+
+        if not url_pdf:
+            print(f"❌ Não foi possível localizar o PDF da edição {numero}.")
+            continue
+
+        analisar_edicao(
+            numero,
+            data,
+            url_pdf
+        )
+
+
+def testar_edicao(numero):
+
+    html = baixar_pagina(URL)
+
+    if not html:
+        print("❌ Não foi possível acessar o portal.")
+        return
+
+    edicoes = extrair_edicoes(html)
+
+    for edicao_numero, data, url_download in edicoes:
+
+        if edicao_numero == int(numero):
+
+            url_pdf = resolver_url_pdf(url_download)
+
+            if not url_pdf:
+                print("❌ Não foi possível localizar o PDF.")
+                return
+
+            analisar_edicao(
+                edicao_numero,
+                data,
+                url_pdf
+            )
+            return
+
+    print("❌ Edição não encontrada.")

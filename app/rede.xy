@@ -1,0 +1,96 @@
+import requests
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0"
+}
+
+
+def baixar_pagina(url):
+    try:
+        resposta = requests.get(
+            url,
+            headers=HEADERS,
+            timeout=20
+        )
+
+        resposta.raise_for_status()
+        return resposta.text
+
+    except Exception as erro:
+        print(erro)
+        return None
+
+
+def baixar_pdf(url):
+    try:
+        resposta = requests.get(
+            url,
+            headers=HEADERS,
+            timeout=30
+        )
+
+        resposta.raise_for_status()
+        return resposta.content
+
+    except Exception as erro:
+        print(erro)
+        return Noneimport requests
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0"
+}
+
+def baixar_pagina(url):
+    try:
+        resposta = requests.get(
+            url,
+            headers=HEADERS,
+            timeout=20
+        )
+
+        resposta.raise_for_status()
+
+        return resposta.text
+
+    except Exception as erro:
+        print(erro)
+        return None
+import requests
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0"
+}
+
+
+def baixar_pagina(url):
+    try:
+        resposta = requests.get(
+            url,
+            headers=HEADERS,
+            timeout=20
+        )
+
+        resposta.raise_for_status()
+        return resposta.text
+
+    except Exception as erro:
+        print(erro)
+        return None
+
+
+def baixar_pdf(url):
+    try:
+        resposta = requests.get(
+            url,
+            headers=HEADERS,
+            timeout=30
+        )
+
+        resposta.raise_for_status()
+        return resposta.content
+
+    except Exception as erro:
+        print(erro)
+        return None
+0
+
