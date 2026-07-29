@@ -3428,5 +3428,980 @@
         "data_publicacao": "",
         "convocacoes": [],
         "nomes_encontrados": []
+    },
+    {
+        "data_busca": "28/07/2026 18:00:04",
+        "cidade": "Vinhedo",
+        "edicao": 2524,
+        "data_publicacao": "28/07/2026 às 16h11",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "28/07/2026 19:31:08",
+        "cidade": "Sorocaba",
+        "edicao": 4002,
+        "data_publicacao": "28/JULHO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 09:00:33",
+        "cidade": "Vinhedo",
+        "edicao": 2525,
+        "data_publicacao": "29/07/2026 às 08h00",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 10:00:40",
+        "cidade": "Campinas",
+        "edicao": "13876",
+        "data_publicacao": "29/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 10:54:12",
+        "cidade": "Sumaré",
+        "edicao": 1,
+        "data_publicacao": "11/02/2011",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 10:54:17",
+        "cidade": "Sumaré",
+        "edicao": 2,
+        "data_publicacao": "18/02/2011",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 10:54:23",
+        "cidade": "Sumaré",
+        "edicao": 3,
+        "data_publicacao": "25/02/2011",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 10:54:26",
+        "cidade": "Sumaré",
+        "edicao": 4,
+        "data_publicacao": "04/03/2011",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 10:54:33",
+        "cidade": "Sumaré",
+        "edicao": 6,
+        "data_publicacao": "16/03/2011",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 10:54:40",
+        "cidade": "Sumaré",
+        "edicao": 7,
+        "data_publicacao": "18/03/2011",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:14:16",
+        "cidade": "Sumaré",
+        "edicao": 2187,
+        "data_publicacao": "27/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:14:22",
+        "cidade": "Sumaré",
+        "edicao": 2188,
+        "data_publicacao": "28/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:19:53",
+        "cidade": "Campinas",
+        "edicao": "13875",
+        "data_publicacao": "28/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:20:30",
+        "cidade": "Campinas",
+        "edicao": "13876",
+        "data_publicacao": "29/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:20:42",
+        "cidade": "Sorocaba",
+        "edicao": 4001,
+        "data_publicacao": "27/JULHO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:20:51",
+        "cidade": "Sorocaba",
+        "edicao": 4002,
+        "data_publicacao": "28/JULHO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:20:52",
+        "cidade": "Vinhedo",
+        "edicao": 2524,
+        "data_publicacao": "28/07/2026 às 16h11",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:21:01",
+        "cidade": "Vinhedo",
+        "edicao": 2525,
+        "data_publicacao": "29/07/2026 às 08h00",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:21:24",
+        "cidade": "Sumaré",
+        "edicao": 2112,
+        "data_publicacao": "01/04/2026",
+        "convocacoes": [
+            {
+                "cargo": "médico veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": "ições que lhe são conferidas por lei e nos termos do artigo 90, da Lei Orgânica do Município de Sumaré; Considerando o disposto nos artigos 13, I e 325 da lei Municipal nº 4.967, de 30 de abril de 2010; Considerando os elementos constantes no procedimento administrativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. "
+            },
+            {
+                "cargo": "médico veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": " 325 da lei Municipal nº 4.967, de 30 de abril de 2010; Considerando os elementos constantes no procedimento administrativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. NOME Nº RG INÍCIO 09 JULIA DE CARVALHO CANDIDO 37.342.108-4 06/04/2026 Art. 2º - A Secretaria Municipal de Gestão e Desenvolvimento de Pessoas, far"
+            },
+            {
+                "cargo": "médico veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": "administrativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. NOME Nº RG INÍCIO 09 JULIA DE CARVALHO CANDIDO 37.342.108-4 06/04/2026 Art. 2º - A Secretaria Municipal de Gestão e Desenvolvimento de Pessoas, fará as anotações de praxe e os registros legais necessários. Parágrafo Único: A Superintendência Administrativa"
+            },
+            {
+                "cargo": "veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": "ue lhe são conferidas por lei e nos termos do artigo 90, da Lei Orgânica do Município de Sumaré; Considerando o disposto nos artigos 13, I e 325 da lei Municipal nº 4.967, de 30 de abril de 2010; Considerando os elementos constantes no procedimento administrativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. NOME Nº"
+            },
+            {
+                "cargo": "veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": " lei Municipal nº 4.967, de 30 de abril de 2010; Considerando os elementos constantes no procedimento administrativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. NOME Nº RG INÍCIO 09 JULIA DE CARVALHO CANDIDO 37.342.108-4 06/04/2026 Art. 2º - A Secretaria Municipal de Gestão e Desenvolvimento de Pessoas, fará as an"
+            },
+            {
+                "cargo": "veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": "trativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. NOME Nº RG INÍCIO 09 JULIA DE CARVALHO CANDIDO 37.342.108-4 06/04/2026 Art. 2º - A Secretaria Municipal de Gestão e Desenvolvimento de Pessoas, fará as anotações de praxe e os registros legais necessários. Parágrafo Único: A Superintendência Administrativa de Ges"
+            }
+        ],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:21:29",
+        "cidade": "Sumaré",
+        "edicao": 2113,
+        "data_publicacao": "02/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:21:35",
+        "cidade": "Sumaré",
+        "edicao": 2114,
+        "data_publicacao": "06/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:21:38",
+        "cidade": "Sumaré",
+        "edicao": 2115,
+        "data_publicacao": "07/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:21:41",
+        "cidade": "Sumaré",
+        "edicao": 2116,
+        "data_publicacao": "08/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:21:47",
+        "cidade": "Sumaré",
+        "edicao": 2117,
+        "data_publicacao": "09/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:21:53",
+        "cidade": "Sumaré",
+        "edicao": 2118,
+        "data_publicacao": "10/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:21:57",
+        "cidade": "Sumaré",
+        "edicao": 2119,
+        "data_publicacao": "13/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:22:01",
+        "cidade": "Sumaré",
+        "edicao": 2120,
+        "data_publicacao": "14/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:22:06",
+        "cidade": "Sumaré",
+        "edicao": 2121,
+        "data_publicacao": "15/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:22:45",
+        "cidade": "Sumaré",
+        "edicao": 2122,
+        "data_publicacao": "16/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:22:56",
+        "cidade": "Sumaré",
+        "edicao": 2123,
+        "data_publicacao": "17/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:23:01",
+        "cidade": "Sumaré",
+        "edicao": 2124,
+        "data_publicacao": "22/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:23:04",
+        "cidade": "Sumaré",
+        "edicao": 2125,
+        "data_publicacao": "23/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:23:09",
+        "cidade": "Sumaré",
+        "edicao": 2126,
+        "data_publicacao": "24/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:23:13",
+        "cidade": "Sumaré",
+        "edicao": 2127,
+        "data_publicacao": "27/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:23:18",
+        "cidade": "Sumaré",
+        "edicao": 2128,
+        "data_publicacao": "28/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:23:22",
+        "cidade": "Sumaré",
+        "edicao": 2129,
+        "data_publicacao": "29/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:23:38",
+        "cidade": "Sumaré",
+        "edicao": 2130,
+        "data_publicacao": "30/04/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:23:43",
+        "cidade": "Sumaré",
+        "edicao": 2131,
+        "data_publicacao": "04/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:23:54",
+        "cidade": "Sumaré",
+        "edicao": 2132,
+        "data_publicacao": "05/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:24:01",
+        "cidade": "Sumaré",
+        "edicao": 2133,
+        "data_publicacao": "06/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:24:06",
+        "cidade": "Sumaré",
+        "edicao": 2134,
+        "data_publicacao": "07/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:24:16",
+        "cidade": "Sumaré",
+        "edicao": 2135,
+        "data_publicacao": "08/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:24:17",
+        "cidade": "Sumaré",
+        "edicao": 2136,
+        "data_publicacao": "11/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:24:19",
+        "cidade": "Sumaré",
+        "edicao": 2137,
+        "data_publicacao": "12/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:24:26",
+        "cidade": "Sumaré",
+        "edicao": 2138,
+        "data_publicacao": "13/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:24:32",
+        "cidade": "Sumaré",
+        "edicao": 2139,
+        "data_publicacao": "14/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:24:40",
+        "cidade": "Sumaré",
+        "edicao": 2140,
+        "data_publicacao": "15/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:24:44",
+        "cidade": "Sumaré",
+        "edicao": 2141,
+        "data_publicacao": "18/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:24:45",
+        "cidade": "Sumaré",
+        "edicao": 2142,
+        "data_publicacao": "19/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:24:54",
+        "cidade": "Sumaré",
+        "edicao": 2143,
+        "data_publicacao": "20/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:25:01",
+        "cidade": "Sumaré",
+        "edicao": 2144,
+        "data_publicacao": "21/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:25:04",
+        "cidade": "Sumaré",
+        "edicao": 2145,
+        "data_publicacao": "22/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:25:18",
+        "cidade": "Sumaré",
+        "edicao": 2146,
+        "data_publicacao": "25/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:25:27",
+        "cidade": "Sumaré",
+        "edicao": 2147,
+        "data_publicacao": "26/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:25:31",
+        "cidade": "Sumaré",
+        "edicao": 2148,
+        "data_publicacao": "27/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:25:38",
+        "cidade": "Sumaré",
+        "edicao": 2149,
+        "data_publicacao": "28/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:25:54",
+        "cidade": "Sumaré",
+        "edicao": 2150,
+        "data_publicacao": "29/05/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:25:57",
+        "cidade": "Sumaré",
+        "edicao": 2151,
+        "data_publicacao": "01/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:26:04",
+        "cidade": "Sumaré",
+        "edicao": 2152,
+        "data_publicacao": "02/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:26:11",
+        "cidade": "Sumaré",
+        "edicao": 2153,
+        "data_publicacao": "03/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:26:14",
+        "cidade": "Sumaré",
+        "edicao": 2154,
+        "data_publicacao": "08/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:26:19",
+        "cidade": "Sumaré",
+        "edicao": 2155,
+        "data_publicacao": "09/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:26:24",
+        "cidade": "Sumaré",
+        "edicao": 2156,
+        "data_publicacao": "10/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:26:30",
+        "cidade": "Sumaré",
+        "edicao": 2157,
+        "data_publicacao": "11/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:26:38",
+        "cidade": "Sumaré",
+        "edicao": 2158,
+        "data_publicacao": "12/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:26:41",
+        "cidade": "Sumaré",
+        "edicao": 2159,
+        "data_publicacao": "15/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:26:42",
+        "cidade": "Sumaré",
+        "edicao": 2160,
+        "data_publicacao": "16/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:26:52",
+        "cidade": "Sumaré",
+        "edicao": 2161,
+        "data_publicacao": "17/06/2026",
+        "convocacoes": [
+            {
+                "cargo": "médico veterinário",
+                "pontuacao": 3,
+                "termos": [
+                    "cargo"
+                ],
+                "trecho": "unicipal nº5146/11. Considerando os elementos constantes na Lei Municipal nº. 4967/10, artigo 72, parágrafo 2º, inciso IIl, e artigo 73; Considerando os elementos constantes no PMS Nº 23132/2026. RESOLVE: Autorizar a remoção do(a) Servidor(a) Público(a) EDUARDO TIZZIANI, titular do cargo efetivo de Médico Veterinário SMS A, matrícula n° 11345-1 atualmente prestando serviços na Secretaria de Proteção e bem estar dos animais, para que passe a prestar serviços junto à Secretaria de Saúde, com efeito válido a partir da publicação. JOSÉ CARLOS DE OLIVEIR A SECRETÁRIO MUNICIPAL DE GESTÃO E DESENVOLV"
+            },
+            {
+                "cargo": "veterinário",
+                "pontuacao": 3,
+                "termos": [
+                    "cargo"
+                ],
+                "trecho": "l nº5146/11. Considerando os elementos constantes na Lei Municipal nº. 4967/10, artigo 72, parágrafo 2º, inciso IIl, e artigo 73; Considerando os elementos constantes no PMS Nº 23132/2026. RESOLVE: Autorizar a remoção do(a) Servidor(a) Público(a) EDUARDO TIZZIANI, titular do cargo efetivo de Médico Veterinário SMS A, matrícula n° 11345-1 atualmente prestando serviços na Secretaria de Proteção e bem estar dos animais, para que passe a prestar serviços junto à Secretaria de Saúde, com efeito válido a partir da publicação. JOSÉ CARLOS DE OLIVEIR A SECRETÁRIO MUNICIPAL DE GESTÃO E DESENVOLVIMENTO "
+            }
+        ],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:26:57",
+        "cidade": "Sumaré",
+        "edicao": 2162,
+        "data_publicacao": "18/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:27:14",
+        "cidade": "Sumaré",
+        "edicao": 2163,
+        "data_publicacao": "19/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:27:18",
+        "cidade": "Sumaré",
+        "edicao": 2164,
+        "data_publicacao": "22/06/2023",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:27:21",
+        "cidade": "Sumaré",
+        "edicao": 2165,
+        "data_publicacao": "23/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:27:30",
+        "cidade": "Sumaré",
+        "edicao": 2166,
+        "data_publicacao": "24/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:27:35",
+        "cidade": "Sumaré",
+        "edicao": 2167,
+        "data_publicacao": "25/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:27:44",
+        "cidade": "Sumaré",
+        "edicao": 2168,
+        "data_publicacao": "26/06/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:28:09",
+        "cidade": "Sumaré",
+        "edicao": 2169,
+        "data_publicacao": "30/06/2026",
+        "convocacoes": [
+            {
+                "cargo": "médico veterinário",
+                "pontuacao": 3,
+                "termos": [
+                    "cargo"
+                ],
+                "trecho": "nicipal nº. 5146/11. Considerando os elementos constantes na Lei Municipal nº. 4967/10, artigo 72, parágrafo 2º, inciso II, e artigo 73; Considerando os elementos constantes no PMS Nº 24325/2026. RESOLVE: Autorizar a remoção do(a) Servidor(a) Público(a) EDUARDO TIZZIANI, titular do cargo efetivo de Médico Veterinário SMS A, matrícula n° 11345-1 atualmente prestando serviços na Secretaria de Saúde, para que passe a prestar serviços junto à Secretaria de Sustentabilidade, com efeito válido retroativo à 22 de junho de 2026. JOSÉ CARLOS DE OLIVEIR A SECRETÁRIO MUNICIPAL DE GESTÃO E DESENVOLVIMENTO"
+            },
+            {
+                "cargo": "veterinário",
+                "pontuacao": 3,
+                "termos": [
+                    "cargo"
+                ],
+                "trecho": " nº. 5146/11. Considerando os elementos constantes na Lei Municipal nº. 4967/10, artigo 72, parágrafo 2º, inciso II, e artigo 73; Considerando os elementos constantes no PMS Nº 24325/2026. RESOLVE: Autorizar a remoção do(a) Servidor(a) Público(a) EDUARDO TIZZIANI, titular do cargo efetivo de Médico Veterinário SMS A, matrícula n° 11345-1 atualmente prestando serviços na Secretaria de Saúde, para que passe a prestar serviços junto à Secretaria de Sustentabilidade, com efeito válido retroativo à 22 de junho de 2026. JOSÉ CARLOS DE OLIVEIR A SECRETÁRIO MUNICIPAL DE GESTÃO E DESENVOLVIMENTO DE PES"
+            }
+        ],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:28:20",
+        "cidade": "Sumaré",
+        "edicao": 2170,
+        "data_publicacao": "01/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:28:25",
+        "cidade": "Sumaré",
+        "edicao": 2171,
+        "data_publicacao": "02/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:28:46",
+        "cidade": "Sumaré",
+        "edicao": 2172,
+        "data_publicacao": "03/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:28:49",
+        "cidade": "Sumaré",
+        "edicao": 2173,
+        "data_publicacao": "06/07/2023",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:28:51",
+        "cidade": "Sumaré",
+        "edicao": 2174,
+        "data_publicacao": "07/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:29:00",
+        "cidade": "Sumaré",
+        "edicao": 2175,
+        "data_publicacao": "08/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:29:01",
+        "cidade": "Sumaré",
+        "edicao": 2176,
+        "data_publicacao": "10/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:29:02",
+        "cidade": "Sumaré",
+        "edicao": 2177,
+        "data_publicacao": "13/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:29:06",
+        "cidade": "Sumaré",
+        "edicao": 2178,
+        "data_publicacao": "14/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:29:10",
+        "cidade": "Sumaré",
+        "edicao": 2179,
+        "data_publicacao": "15/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:29:17",
+        "cidade": "Sumaré",
+        "edicao": 2180,
+        "data_publicacao": "16/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:29:30",
+        "cidade": "Sumaré",
+        "edicao": 2181,
+        "data_publicacao": "17/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:29:33",
+        "cidade": "Sumaré",
+        "edicao": 2182,
+        "data_publicacao": "20/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:29:34",
+        "cidade": "Sumaré",
+        "edicao": 2183,
+        "data_publicacao": "21/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:29:35",
+        "cidade": "Sumaré",
+        "edicao": 2184,
+        "data_publicacao": "22/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:29:38",
+        "cidade": "Sumaré",
+        "edicao": 2185,
+        "data_publicacao": "23/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:29:40",
+        "cidade": "Sumaré",
+        "edicao": 2186,
+        "data_publicacao": "24/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:29:44",
+        "cidade": "Sumaré",
+        "edicao": 2187,
+        "data_publicacao": "27/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:30:01",
+        "cidade": "Sumaré",
+        "edicao": 2188,
+        "data_publicacao": "28/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:43:32",
+        "cidade": "Sumaré",
+        "edicao": 2112,
+        "data_publicacao": "01/04/2026",
+        "convocacoes": [
+            {
+                "cargo": "médico veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": "ições que lhe são conferidas por lei e nos termos do artigo 90, da Lei Orgânica do Município de Sumaré; Considerando o disposto nos artigos 13, I e 325 da lei Municipal nº 4.967, de 30 de abril de 2010; Considerando os elementos constantes no procedimento administrativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. "
+            },
+            {
+                "cargo": "médico veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": " 325 da lei Municipal nº 4.967, de 30 de abril de 2010; Considerando os elementos constantes no procedimento administrativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. NOME Nº RG INÍCIO 09 JULIA DE CARVALHO CANDIDO 37.342.108-4 06/04/2026 Art. 2º - A Secretaria Municipal de Gestão e Desenvolvimento de Pessoas, far"
+            },
+            {
+                "cargo": "médico veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": "administrativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. NOME Nº RG INÍCIO 09 JULIA DE CARVALHO CANDIDO 37.342.108-4 06/04/2026 Art. 2º - A Secretaria Municipal de Gestão e Desenvolvimento de Pessoas, fará as anotações de praxe e os registros legais necessários. Parágrafo Único: A Superintendência Administrativa"
+            },
+            {
+                "cargo": "veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": "ue lhe são conferidas por lei e nos termos do artigo 90, da Lei Orgânica do Município de Sumaré; Considerando o disposto nos artigos 13, I e 325 da lei Municipal nº 4.967, de 30 de abril de 2010; Considerando os elementos constantes no procedimento administrativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. NOME Nº"
+            },
+            {
+                "cargo": "veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": " lei Municipal nº 4.967, de 30 de abril de 2010; Considerando os elementos constantes no procedimento administrativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. NOME Nº RG INÍCIO 09 JULIA DE CARVALHO CANDIDO 37.342.108-4 06/04/2026 Art. 2º - A Secretaria Municipal de Gestão e Desenvolvimento de Pessoas, fará as an"
+            },
+            {
+                "cargo": "veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": "trativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. NOME Nº RG INÍCIO 09 JULIA DE CARVALHO CANDIDO 37.342.108-4 06/04/2026 Art. 2º - A Secretaria Municipal de Gestão e Desenvolvimento de Pessoas, fará as anotações de praxe e os registros legais necessários. Parágrafo Único: A Superintendência Administrativa de Ges"
+            }
+        ],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 11:49:23",
+        "cidade": "Sumaré",
+        "edicao": 2112,
+        "data_publicacao": "01/04/2026",
+        "convocacoes": [
+            {
+                "cargo": "médico veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": "ições que lhe são conferidas por lei e nos termos do artigo 90, da Lei Orgânica do Município de Sumaré; Considerando o disposto nos artigos 13, I e 325 da lei Municipal nº 4.967, de 30 de abril de 2010; Considerando os elementos constantes no procedimento administrativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. "
+            },
+            {
+                "cargo": "médico veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": " 325 da lei Municipal nº 4.967, de 30 de abril de 2010; Considerando os elementos constantes no procedimento administrativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. NOME Nº RG INÍCIO 09 JULIA DE CARVALHO CANDIDO 37.342.108-4 06/04/2026 Art. 2º - A Secretaria Municipal de Gestão e Desenvolvimento de Pessoas, far"
+            },
+            {
+                "cargo": "médico veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": "administrativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. NOME Nº RG INÍCIO 09 JULIA DE CARVALHO CANDIDO 37.342.108-4 06/04/2026 Art. 2º - A Secretaria Municipal de Gestão e Desenvolvimento de Pessoas, fará as anotações de praxe e os registros legais necessários. Parágrafo Único: A Superintendência Administrativa"
+            },
+            {
+                "cargo": "veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": "ue lhe são conferidas por lei e nos termos do artigo 90, da Lei Orgânica do Município de Sumaré; Considerando o disposto nos artigos 13, I e 325 da lei Municipal nº 4.967, de 30 de abril de 2010; Considerando os elementos constantes no procedimento administrativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. NOME Nº"
+            },
+            {
+                "cargo": "veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": " lei Municipal nº 4.967, de 30 de abril de 2010; Considerando os elementos constantes no procedimento administrativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. NOME Nº RG INÍCIO 09 JULIA DE CARVALHO CANDIDO 37.342.108-4 06/04/2026 Art. 2º - A Secretaria Municipal de Gestão e Desenvolvimento de Pessoas, fará as an"
+            },
+            {
+                "cargo": "veterinário",
+                "pontuacao": 5,
+                "termos": [
+                    "cargo",
+                    "concurso público"
+                ],
+                "trecho": "trativo Concurso Público nº 001/24 - Médico Veterinário SMS; R E S O L V E: Art. 1º - Nomear ao serviço público, em virtude de aprovação em Concurso Público nº 001/24, para o cargo de Médico Veterinário SMS Ref. SMS44, subordinada à Secretaria Municipal de Saúde, a seguinte servidora: CARGO: Médico Veterinário SMS - Ref. SMS 44 CLASS. NOME Nº RG INÍCIO 09 JULIA DE CARVALHO CANDIDO 37.342.108-4 06/04/2026 Art. 2º - A Secretaria Municipal de Gestão e Desenvolvimento de Pessoas, fará as anotações de praxe e os registros legais necessários. Parágrafo Único: A Superintendência Administrativa de Ges"
+            }
+        ],
+        "nomes_encontrados": []
     }
 ]

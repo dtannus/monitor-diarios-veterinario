@@ -3,6 +3,7 @@ from modelos import ResumoExecucao
 from cidades import campinas
 from cidades import sorocaba
 from cidades import vinhedo
+from cidades import sumare
 
 
 def listar_cidades():
@@ -11,7 +12,7 @@ def listar_cidades():
 
     resumo = ResumoExecucao()
 
-    for modulo in (campinas, sorocaba, vinhedo):
+    for modulo in (campinas, sorocaba, vinhedo, sumare):
 
         resultado = modulo.buscar()
 

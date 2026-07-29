@@ -3,9 +3,9 @@ import sys
 import traceback
 
 from buscador import listar_cidades
-from cidades import campinas, sorocaba, vinhedo
+from cidades import campinas, sorocaba, vinhedo, sumare
 from telegram import enviar_mensagem
-from resumo import limpar, obter
+from resumo import limpar, obter, tem_convocacao
 
 
 def iniciar_monitor():
@@ -43,6 +43,9 @@ def iniciar_monitor():
             elif cidade == "vinhedo":
                 vinhedo.testar_edicao(numero)
 
+            elif cidade == "sumare":
+                sumare.testar_edicao(numero)
+
             else:
                 print(f"❌ Cidade '{cidade}' não cadastrada.")
 
@@ -53,15 +56,29 @@ def iniciar_monitor():
         resumo = obter().strip()
 
         if resumo:
+
+            if tem_convocacao():
+                cabecalho = (
+                    "⚠️ <b>Foram encontradas convocações para "
+                    "Médico Veterinário.</b>\n\n"
+                )
+            else:
+                cabecalho = (
+                    "ℹ️ <b>Nenhuma convocação para Médico Veterinário "
+                    "foi encontrada nesta execução.</b>\n\n"
+                )
+
             enviar_mensagem(
                 "<b>📋 Resumo da execução</b>\n\n"
-                "⚠️ <b>Foram encontradas convocações para Médico Veterinário.</b>\n\n"
+                f"{cabecalho}"
                 f"{resumo}"
             )
+
         else:
+
             enviar_mensagem(
                 "<b>📋 Resumo da execução</b>\n\n"
-                "✅ Nenhuma convocação para <b>Médico Veterinário</b> foi encontrada nesta execução."
+                "ℹ️ <b>Nenhuma edição nova foi encontrada para análise.</b>"
             )
 
         fim = datetime.now()

@@ -8,7 +8,7 @@ from nomes import procurar_nomes
 from configuracao import NOMES_MONITORADOS
 from historico import salvar_resultado
 from controle import atualizar_edicao
-from resumo import adicionar
+from resumo import adicionar, marcar_convocacao
 
 
 def executar(cidade, numero, data, url_pdf):
@@ -52,6 +52,8 @@ def executar(cidade, numero, data, url_pdf):
     mostrar_debug(texto, convocados, nomes)
 
     if convocados:
+      
+        marcar_convocacao()
 
         print(f"\n🐾 {len(convocados)} convocado(s) encontrado(s).\n")
         adicionar(f"🐾 {len(convocados)} convocação(ões) encontrada(s):")

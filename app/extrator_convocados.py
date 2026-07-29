@@ -11,6 +11,14 @@ PADRAO_CARGO = re.compile(
 PADROES = [
 
     (
+        "Tabela",
+        re.compile(
+            r"CLASS\.?\s+NOME.*?\b\d+\s+([A-ZÁÀÂÃÉÈÊÍÌÎÓÒÔÕÚÙÛÇ\s]{8,120}?)\s+\d{1,2}\.\d{3}\.\d{3}",
+            re.IGNORECASE | re.DOTALL,
+        ),
+    ),
+
+    (
         "Prorrogação de posse",
         re.compile(
             r"prorroga(?:r|ção)?.{0,150}?posse\s+de\s+([A-ZÁÀÂÃÉÈÊÍÌÎÓÒÔÕÚÙÛÇ\s]{5,120})",
