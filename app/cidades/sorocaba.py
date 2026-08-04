@@ -1,6 +1,8 @@
 from rede import baixar_pagina
 from executor import executar
 from controle import ultima_edicao
+from modelos import ResultadoCidade
+from resumo import adicionar
 import re
 
 URL = "https://noticias.sorocaba.sp.gov.br/jornal/"
@@ -19,26 +21,27 @@ def extrair_edicoes(html):
     """
 
     regex = re.compile(
-        r'https://[^"]+/(\d+)-(\d{2})-DE-([A-ZÇ]+)-DE-(\d{4})(?:-\d+)?\.pdf',
-        re.IGNORECASE
+        r'<a\s+href="(?P<url>https://[^"]+\.pdf)"[^>]*class="link-jornal".*?'
+        r'Edição\s*n[ºo]\s*(?P<numero>\d+)\s*(?:&#8211;|–|-)\s*'
+        r'(?P<dia>\d{2})\s+DE\s+(?P<mes>[A-ZÇ]+)\s+DE\s+(?P<ano>\d{4})',
+        re.IGNORECASE | re.DOTALL
     )
 
     edicoes = []
 
     for match in regex.finditer(html):
 
-        numero = int(match.group(1))
-        dia = match.group(2)
-        mes = match.group(3)
-        ano = match.group(4)
+        numero = int(match.group("numero"))
+        dia = match.group("dia")
+        mes = match.group("mes").upper()
+        ano = match.group("ano")
 
         data = f"{dia}/{mes}/{ano}"
-        url_pdf = match.group(0)
+        url_pdf = match.group("url")
 
         edicoes.append((numero, data, url_pdf))
 
-    edicoes.sort(key=lambda x: x[0])
-
+    edicoes.sort(key=lambda x: (x[0], x[2]))
     return edicoes
 
 
@@ -50,7 +53,15 @@ def buscar():
 
     if not html:
         print("❌ Não foi possível acessar o portal.")
-        return
+
+        resultado = ResultadoCidade(cidade="Sorocaba")
+        resultado.erros.append("Não foi possível verificar o Diário Oficial.")
+
+        adicionar(
+            "❌ <b>Sorocaba</b>: não foi possível verificar o Diário Oficial."
+        )
+
+        return resultado
 
     ultima = ultima_edicao("Sorocaba")
 
@@ -88,10 +99,13 @@ def testar_edicao(numero):
 
     edicoes = extrair_edicoes(html)
 
+    encontrou = False
+
     for edicao_numero, data, url_pdf in edicoes:
 
         if edicao_numero == int(numero):
+            encontrou = True
             analisar_edicao(edicao_numero, data, url_pdf)
-            return
 
-    print("❌ Edição não encontrada.")
+    if not encontrou:
+        print("❌ Edição não encontrada.")

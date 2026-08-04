@@ -1,6 +1,8 @@
 from rede import baixar_pagina, resolver_url_pdf
 from executor import executar
 from controle import ultima_edicao
+from modelos import ResultadoCidade
+from resumo import adicionar
 import re
 
 URL = "https://www.vinhedo.sp.gov.br/portal/diario-oficial"
@@ -74,7 +76,15 @@ def buscar():
 
     if not html:
         print("❌ Não foi possível acessar o portal.")
-        return
+
+        resultado = ResultadoCidade(cidade="Vinhedo")
+        resultado.erros.append("Não foi possível verificar o Diário Oficial.")
+
+        adicionar(
+            "❌ <b>Vinhedo</b>: não foi possível verificar o Diário Oficial."
+        )
+
+        return resultado
 
     ultima = ultima_edicao("Vinhedo")
 
@@ -84,7 +94,15 @@ def buscar():
 
     if not edicoes:
         print("❌ Nenhuma edição encontrada.")
-        return
+
+        resultado = ResultadoCidade(cidade="Vinhedo")
+        resultado.erros.append("Nenhuma edição encontrada.")
+
+        adicionar(
+            "❌ <b>Vinhedo</b>: nenhuma edição foi encontrada."
+        )
+
+        return resultado
 
     novas = [
         e for e in edicoes

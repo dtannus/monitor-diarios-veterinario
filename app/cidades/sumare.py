@@ -1,8 +1,11 @@
-import requests
 from bs4 import BeautifulSoup
 
 from executor import executar
 from controle import ultima_edicao
+from rede import baixar_pagina
+from modelos import ResultadoCidade
+from resumo import adicionar
+from edicoes import chave_ordenacao
 
 URL = "https://dom.sumare.sp.gov.br/?edicao=todas"
 
@@ -25,13 +28,14 @@ def extrair_edicoes(html):
         if not titulo or not link:
             continue
 
-        try:
-            numero = int(
-                titulo.get_text(strip=True)
-                .replace("Edição", "")
-                .strip()
-            )
-        except ValueError:
+        numero = (
+            titulo.get_text(strip=True)
+            .replace("Edição", "")
+            .strip()
+            .upper()
+        )
+
+        if not numero:
             continue
 
         data = None
@@ -49,7 +53,9 @@ def extrair_edicoes(html):
             )
         )
 
-    edicoes.sort(key=lambda x: x[0])
+    edicoes.sort(
+        key=lambda x: chave_ordenacao(x[0])
+    )
 
     return edicoes
 
@@ -58,10 +64,19 @@ def buscar():
 
     print("Acessando Diário Oficial de Sumaré...")
 
-    resposta = requests.get(URL, timeout=30)
-    resposta.raise_for_status()
+    html = baixar_pagina(URL)
 
-    html = resposta.text
+    if not html:
+        print("❌ Não foi possível acessar o Diário Oficial de Sumaré.")
+
+        resultado = ResultadoCidade(cidade="Sumaré")
+        resultado.erros.append("Não foi possível verificar o Diário Oficial.")
+
+        adicionar(
+            "❌ <b>Sumaré</b>: não foi possível verificar o Diário Oficial."
+        )
+
+        return resultado
 
     ultima = ultima_edicao("Sumaré")
 
@@ -71,12 +86,30 @@ def buscar():
 
     if not edicoes:
         print("❌ Nenhuma edição encontrada.")
-        return
 
-    novas = [
-        e for e in edicoes
-        if ultima is None or e[0] > ultima
-    ]
+        resultado = ResultadoCidade(cidade="Sumaré")
+        resultado.erros.append("Nenhuma edição encontrada.")
+
+        adicionar(
+            "❌ <b>Sumaré</b>: nenhuma edição foi encontrada."
+        )
+
+        return resultado
+
+    novas = []
+
+    ultima_base = (
+        str(ultima).split("-")[0]
+        if ultima is not None
+        else None
+    )
+
+    for numero, data, url_pdf in edicoes:
+
+        base = str(numero).split("-")[0]
+
+        if ultima_base is None or int(base) > int(ultima_base):
+            novas.append((numero, data, url_pdf))
 
     if not novas:
         print("✅ Nenhuma edição nova.")
@@ -84,30 +117,52 @@ def buscar():
 
     print(f"Foram encontradas {len(novas)} edição(ões) nova(s).")
 
+    ultima_processada = None
+
     for numero, data, url_pdf in novas:
+
         analisar_edicao(
             numero,
             data,
             url_pdf
         )
 
+        ultima_processada = str(numero).split("-")[0]
+
+    if ultima_processada is not None:
+        from controle import atualizar_edicao
+        atualizar_edicao("Sumaré", int(ultima_processada))
 
 def testar_edicao(numero):
 
-    resposta = requests.get(URL, timeout=30)
-    resposta.raise_for_status()
+    html = baixar_pagina(URL)
 
-    edicoes = extrair_edicoes(resposta.text)
+    if not html:
+        print("❌ Não foi possível acessar o Diário Oficial de Sumaré.")
+        return
+
+    edicoes = extrair_edicoes(html)
+
+    base_procurada = str(numero).split("-")[0]
+
+    encontrou = False
 
     for edicao_numero, data, url_pdf in edicoes:
 
-        if edicao_numero == int(numero):
+        base = str(edicao_numero).split("-")[0]
+
+        if base == base_procurada:
+
+            encontrou = True
 
             analisar_edicao(
                 edicao_numero,
                 data,
                 url_pdf
             )
-            return
 
-    print("❌ Edição não encontrada.")
+        elif encontrou:
+            break
+
+    if not encontrou:
+        print("❌ Edição não encontrada.")

@@ -4403,5 +4403,431 @@
             }
         ],
         "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 18:00:05",
+        "cidade": "Vinhedo",
+        "edicao": 2526,
+        "data_publicacao": "29/07/2026 às 16h00",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "29/07/2026 18:00:13",
+        "cidade": "Sumaré",
+        "edicao": 2189,
+        "data_publicacao": "29/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "30/07/2026 10:14:19",
+        "cidade": "Campinas",
+        "edicao": "13877",
+        "data_publicacao": "30/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "30/07/2026 10:14:40",
+        "cidade": "Sorocaba",
+        "edicao": 4003,
+        "data_publicacao": "29/JULHO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "30/07/2026 10:14:57",
+        "cidade": "Vinhedo",
+        "edicao": 2527,
+        "data_publicacao": "30/07/2026 às 08h00",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "30/07/2026 18:00:16",
+        "cidade": "Vinhedo",
+        "edicao": 2528,
+        "data_publicacao": "30/07/2026 às 16h13",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "30/07/2026 18:00:30",
+        "cidade": "Sumaré",
+        "edicao": 2190,
+        "data_publicacao": "30/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "31/07/2026 10:00:21",
+        "cidade": "Campinas",
+        "edicao": "13878",
+        "data_publicacao": "31/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "31/07/2026 10:00:29",
+        "cidade": "Sorocaba",
+        "edicao": 4004,
+        "data_publicacao": "30/JULHO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "31/07/2026 10:00:33",
+        "cidade": "Vinhedo",
+        "edicao": 2529,
+        "data_publicacao": "31/07/2026 às 08h00",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "31/07/2026 18:00:05",
+        "cidade": "Vinhedo",
+        "edicao": 2530,
+        "data_publicacao": "31/07/2026 às 11h32",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "31/07/2026 18:00:06",
+        "cidade": "Vinhedo",
+        "edicao": 2531,
+        "data_publicacao": "31/07/2026 às 16h29",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "01/08/2026 10:00:24",
+        "cidade": "Sumaré",
+        "edicao": 2191,
+        "data_publicacao": "31/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 10:01:05",
+        "cidade": "Campinas",
+        "edicao": "13879",
+        "data_publicacao": "03/08/2026",
+        "convocacoes": [
+            {
+                "cargo": "médico veterinário",
+                "pontuacao": 7,
+                "termos": [
+                    "cargo",
+                    "concurso público",
+                    "edital"
+                ],
+                "trecho": "RTAMENTO DE PROMOÇÃO À SAÚDE DO SERVIDOR COMUNICADO DE CONCURSO PÚBLICO (Edital 01/2024) O Departamento de Promoção à Saúde do Servidor da Secretaria Municipal de Gestão e Desenvolvimento de Pessoas comunica o resultado do exame médico pré-admissional do candidato relacionado abaixo para o cargo de Médico Veterinário: Nome: Julia de Carvalho Candido Avaliação Médica: Apto Campinas, 31 de julho de 2026 GUSTA VO DE FREITAS CORREA DIRETOR DO DEPARTAMENTO DE PROMOÇÃO À SAÚDE DO SERVIDOR PORTARIAS ASSINADAS PELO EXCELENTÍSSIMO SENHOR PREFEITO PORTARIA Nº 107058/2026 O Excelentíssimo Senhor Prefeito"
+            },
+            {
+                "cargo": "veterinário",
+                "pontuacao": 7,
+                "termos": [
+                    "cargo",
+                    "concurso público",
+                    "edital"
+                ],
+                "trecho": "O DE PROMOÇÃO À SAÚDE DO SERVIDOR COMUNICADO DE CONCURSO PÚBLICO (Edital 01/2024) O Departamento de Promoção à Saúde do Servidor da Secretaria Municipal de Gestão e Desenvolvimento de Pessoas comunica o resultado do exame médico pré-admissional do candidato relacionado abaixo para o cargo de Médico Veterinário: Nome: Julia de Carvalho Candido Avaliação Médica: Apto Campinas, 31 de julho de 2026 GUSTA VO DE FREITAS CORREA DIRETOR DO DEPARTAMENTO DE PROMOÇÃO À SAÚDE DO SERVIDOR PORTARIAS ASSINADAS PELO EXCELENTÍSSIMO SENHOR PREFEITO PORTARIA Nº 107058/2026 O Excelentíssimo Senhor Prefeito Munici"
+            }
+        ],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 10:01:09",
+        "cidade": "Vinhedo",
+        "edicao": 2532,
+        "data_publicacao": "03/08/2026 às 08h00",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 18:00:04",
+        "cidade": "Vinhedo",
+        "edicao": 2533,
+        "data_publicacao": "03/08/2026 às 16h07",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 19:34:52",
+        "cidade": "Sorocaba",
+        "edicao": 4005,
+        "data_publicacao": "31/JULHO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 19:35:08",
+        "cidade": "Sorocaba",
+        "edicao": 4006,
+        "data_publicacao": "03/AGOSTO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:01:17",
+        "cidade": "Sorocaba",
+        "edicao": 4005,
+        "data_publicacao": "31/JULHO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:29:54",
+        "cidade": "Campinas",
+        "edicao": "13877",
+        "data_publicacao": "30/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:30:09",
+        "cidade": "Campinas",
+        "edicao": "13878",
+        "data_publicacao": "31/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:31:10",
+        "cidade": "Campinas",
+        "edicao": "13879",
+        "data_publicacao": "03/08/2026",
+        "convocacoes": [
+            {
+                "cargo": "médico veterinário",
+                "pontuacao": 7,
+                "termos": [
+                    "cargo",
+                    "concurso público",
+                    "edital"
+                ],
+                "trecho": "RTAMENTO DE PROMOÇÃO À SAÚDE DO SERVIDOR COMUNICADO DE CONCURSO PÚBLICO (Edital 01/2024) O Departamento de Promoção à Saúde do Servidor da Secretaria Municipal de Gestão e Desenvolvimento de Pessoas comunica o resultado do exame médico pré-admissional do candidato relacionado abaixo para o cargo de Médico Veterinário: Nome: Julia de Carvalho Candido Avaliação Médica: Apto Campinas, 31 de julho de 2026 GUSTA VO DE FREITAS CORREA DIRETOR DO DEPARTAMENTO DE PROMOÇÃO À SAÚDE DO SERVIDOR PORTARIAS ASSINADAS PELO EXCELENTÍSSIMO SENHOR PREFEITO PORTARIA Nº 107058/2026 O Excelentíssimo Senhor Prefeito"
+            },
+            {
+                "cargo": "veterinário",
+                "pontuacao": 7,
+                "termos": [
+                    "cargo",
+                    "concurso público",
+                    "edital"
+                ],
+                "trecho": "O DE PROMOÇÃO À SAÚDE DO SERVIDOR COMUNICADO DE CONCURSO PÚBLICO (Edital 01/2024) O Departamento de Promoção à Saúde do Servidor da Secretaria Municipal de Gestão e Desenvolvimento de Pessoas comunica o resultado do exame médico pré-admissional do candidato relacionado abaixo para o cargo de Médico Veterinário: Nome: Julia de Carvalho Candido Avaliação Médica: Apto Campinas, 31 de julho de 2026 GUSTA VO DE FREITAS CORREA DIRETOR DO DEPARTAMENTO DE PROMOÇÃO À SAÚDE DO SERVIDOR PORTARIAS ASSINADAS PELO EXCELENTÍSSIMO SENHOR PREFEITO PORTARIA Nº 107058/2026 O Excelentíssimo Senhor Prefeito Munici"
+            }
+        ],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:31:18",
+        "cidade": "Sorocaba",
+        "edicao": 4004,
+        "data_publicacao": "30/JULHO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:31:27",
+        "cidade": "Sorocaba",
+        "edicao": 4004,
+        "data_publicacao": "30/JULHO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:31:37",
+        "cidade": "Sorocaba",
+        "edicao": 4005,
+        "data_publicacao": "31/JULHO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:32:04",
+        "cidade": "Sorocaba",
+        "edicao": 4005,
+        "data_publicacao": "31/JULHO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:32:14",
+        "cidade": "Sorocaba",
+        "edicao": 4005,
+        "data_publicacao": "31/JULHO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:32:25",
+        "cidade": "Sorocaba",
+        "edicao": 4006,
+        "data_publicacao": "03/AGOSTO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:32:26",
+        "cidade": "Vinhedo",
+        "edicao": 2526,
+        "data_publicacao": "29/07/2026 às 16h00",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:32:42",
+        "cidade": "Vinhedo",
+        "edicao": 2527,
+        "data_publicacao": "30/07/2026 às 08h00",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:32:55",
+        "cidade": "Vinhedo",
+        "edicao": 2528,
+        "data_publicacao": "30/07/2026 às 16h13",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:32:58",
+        "cidade": "Vinhedo",
+        "edicao": 2529,
+        "data_publicacao": "31/07/2026 às 08h00",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:32:59",
+        "cidade": "Vinhedo",
+        "edicao": 2530,
+        "data_publicacao": "31/07/2026 às 11h32",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:33:01",
+        "cidade": "Vinhedo",
+        "edicao": 2531,
+        "data_publicacao": "31/07/2026 às 16h29",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:33:04",
+        "cidade": "Vinhedo",
+        "edicao": 2532,
+        "data_publicacao": "03/08/2026 às 08h00",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:33:05",
+        "cidade": "Vinhedo",
+        "edicao": 2533,
+        "data_publicacao": "03/08/2026 às 16h07",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:33:13",
+        "cidade": "Sumaré",
+        "edicao": 2189,
+        "data_publicacao": "29/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:33:22",
+        "cidade": "Sumaré",
+        "edicao": 2190,
+        "data_publicacao": "30/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 21:33:33",
+        "cidade": "Sumaré",
+        "edicao": 2191,
+        "data_publicacao": "31/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 22:18:22",
+        "cidade": "Sumaré",
+        "edicao": 2189,
+        "data_publicacao": "29/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 22:26:17",
+        "cidade": "Sumaré",
+        "edicao": "2189",
+        "data_publicacao": "29/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 22:26:19",
+        "cidade": "Sumaré",
+        "edicao": "2189-A",
+        "data_publicacao": "29/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 22:28:08",
+        "cidade": "Sumaré",
+        "edicao": "2189",
+        "data_publicacao": "29/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 22:28:10",
+        "cidade": "Sumaré",
+        "edicao": "2189-A",
+        "data_publicacao": "29/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 22:28:18",
+        "cidade": "Sumaré",
+        "edicao": "2190",
+        "data_publicacao": "30/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "03/08/2026 22:28:29",
+        "cidade": "Sumaré",
+        "edicao": "2191",
+        "data_publicacao": "31/07/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "04/08/2026 10:00:28",
+        "cidade": "Campinas",
+        "edicao": "13880",
+        "data_publicacao": "04/08/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "04/08/2026 10:01:43",
+        "cidade": "Vinhedo",
+        "edicao": 2534,
+        "data_publicacao": "04/08/2026 às 08h00",
+        "convocacoes": [],
+        "nomes_encontrados": []
     }
 ]
