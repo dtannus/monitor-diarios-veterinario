@@ -1,3 +1,4 @@
+from logger import registrar
 from rede import baixar_pagina
 from executor import executar
 from controle import ultima_edicao
@@ -47,12 +48,12 @@ def extrair_edicoes(html):
 
 def buscar():
 
-    print("Acessando Jornal do Município de Sorocaba...")
+    registrar("Acessando Jornal do Município de Sorocaba...")
 
     html = baixar_pagina(URL)
 
     if not html:
-        print("❌ Não foi possível acessar o portal.")
+        registrar("❌ Não foi possível acessar o portal.")
 
         resultado = ResultadoCidade(cidade="Sorocaba")
         resultado.erros.append("Não foi possível verificar o Diário Oficial.")
@@ -65,12 +66,14 @@ def buscar():
 
     ultima = ultima_edicao("Sorocaba")
 
-    print(f"Última edição analisada: {ultima}")
+    registrar(f"Última edição analisada: {ultima}")
 
     edicoes = extrair_edicoes(html)
 
+    registrar(f"Edições encontradas: {[e[0] for e in edicoes]}")
+
     if not edicoes:
-        print("❌ Nenhuma edição encontrada.")
+        registrar("❌ Nenhuma edição encontrada.")
         return
 
     novas = [
@@ -79,11 +82,13 @@ def buscar():
         if ultima is None or edicao[0] > ultima
     ]
 
+    registrar(f"Novas edições: {[e[0] for e in novas]}")
+
     if not novas:
-        print("✅ Nenhuma edição nova.")
+        registrar("✅ Nenhuma edição nova.")
         return
 
-    print(f"Foram encontradas {len(novas)} edição(ões) nova(s).")
+    registrar(f"Foram encontradas {len(novas)} edição(ões) nova(s).")
 
     for numero, data, url_pdf in novas:
         analisar_edicao(numero, data, url_pdf)
@@ -94,10 +99,12 @@ def testar_edicao(numero):
     html = baixar_pagina(URL)
 
     if not html:
-        print("❌ Não foi possível acessar o portal.")
+        registrar("❌ Não foi possível acessar o portal.")
         return
 
     edicoes = extrair_edicoes(html)
+
+    registrar(f"Edições encontradas: {[e[0] for e in edicoes]}")
 
     encontrou = False
 
@@ -108,4 +115,4 @@ def testar_edicao(numero):
             analisar_edicao(edicao_numero, data, url_pdf)
 
     if not encontrou:
-        print("❌ Edição não encontrada.")
+        registrar("❌ Edição não encontrada.")

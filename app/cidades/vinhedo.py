@@ -1,3 +1,4 @@
+from logger import registrar
 from rede import baixar_pagina, resolver_url_pdf
 from executor import executar
 from controle import ultima_edicao
@@ -70,12 +71,12 @@ def extrair_edicoes(html):
 
 def buscar():
 
-    print("Acessando Diário Oficial de Vinhedo...")
+    registrar("Acessando Diário Oficial de Vinhedo...")
 
     html = baixar_pagina(URL)
 
     if not html:
-        print("❌ Não foi possível acessar o portal.")
+        registrar("❌ Não foi possível acessar o portal.")
 
         resultado = ResultadoCidade(cidade="Vinhedo")
         resultado.erros.append("Não foi possível verificar o Diário Oficial.")
@@ -88,12 +89,14 @@ def buscar():
 
     ultima = ultima_edicao("Vinhedo")
 
-    print(f"Última edição analisada: {ultima}")
+    registrar(f"Última edição analisada: {ultima}")
 
     edicoes = extrair_edicoes(html)
 
+    registrar(f"Edições encontradas: {[e[0] for e in edicoes]}")
+
     if not edicoes:
-        print("❌ Nenhuma edição encontrada.")
+        registrar("❌ Nenhuma edição encontrada.")
 
         resultado = ResultadoCidade(cidade="Vinhedo")
         resultado.erros.append("Nenhuma edição encontrada.")
@@ -109,18 +112,20 @@ def buscar():
         if ultima is None or e[0] > ultima
     ]
 
+    registrar(f"Novas edições: {[e[0] for e in novas]}")
+
     if not novas:
-        print("✅ Nenhuma edição nova.")
+        registrar("✅ Nenhuma edição nova.")
         return
 
-    print(f"Foram encontradas {len(novas)} edição(ões) nova(s).")
+    registrar(f"Foram encontradas {len(novas)} edição(ões) nova(s).")
 
     for numero, data, url_download in novas:
 
         url_pdf = resolver_url_pdf(url_download)
 
         if not url_pdf:
-            print(f"❌ Não foi possível localizar o PDF da edição {numero}.")
+            registrar(f"❌ Não foi possível localizar o PDF da edição {numero}.")
             continue
 
         analisar_edicao(
@@ -135,10 +140,12 @@ def testar_edicao(numero):
     html = baixar_pagina(URL)
 
     if not html:
-        print("❌ Não foi possível acessar o portal.")
+        registrar("❌ Não foi possível acessar o portal.")
         return
 
     edicoes = extrair_edicoes(html)
+
+    registrar(f"Edições encontradas: {[e[0] for e in edicoes]}")
 
     for edicao_numero, data, url_download in edicoes:
 
@@ -147,7 +154,7 @@ def testar_edicao(numero):
             url_pdf = resolver_url_pdf(url_download)
 
             if not url_pdf:
-                print("❌ Não foi possível localizar o PDF.")
+                registrar("❌ Não foi possível localizar o PDF.")
                 return
 
             analisar_edicao(
@@ -157,4 +164,4 @@ def testar_edicao(numero):
             )
             return
 
-    print("❌ Edição não encontrada.")
+    registrar("❌ Edição não encontrada.")

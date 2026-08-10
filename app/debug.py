@@ -1,9 +1,12 @@
-def mostrar_debug(texto, convocados, nomes):
-    print("\n" + "=" * 60)
-    print("DEBUG")
-    print("=" * 60)
+from logger import registrar
 
-    print(f"Tamanho do texto: {len(texto)} caracteres")
+
+def mostrar_debug(texto, convocados, nomes):
+    registrar("\n" + "=" * 60)
+    registrar("DEBUG")
+    registrar("=" * 60)
+
+    registrar(f"Tamanho do texto: {len(texto)} caracteres")
 
     cargos = [
         "MÉDICO VETERINÁRIO",
@@ -12,7 +15,7 @@ def mostrar_debug(texto, convocados, nomes):
         "VETERINARIO"
     ]
 
-    print("\nOcorrências dos cargos:")
+    registrar("\nOcorrências dos cargos:")
 
     encontrou = False
 
@@ -23,20 +26,20 @@ def mostrar_debug(texto, convocados, nomes):
 
         if qtd:
             encontrou = True
-            print(f"  {cargo}: {qtd}")
+            registrar(f"  {cargo}: {qtd}")
 
             indice = texto_maiusculo.find(cargo)
 
             inicio = max(0, indice - 250)
             fim = min(len(texto), indice + 600)
 
-            print("\nTrecho encontrado:\n")
-            print(texto[inicio:fim])
-            print("\n" + "-" * 60)
+            registrar("\nTrecho encontrado:\n")
+            registrar(texto[inicio:fim])
+            registrar("\n" + "-" * 60)
 
     if not encontrou:
-        print("Nenhuma ocorrência de Médico Veterinário.")
+        registrar("Nenhuma ocorrência de Médico Veterinário.")
 
-    print(f"\nConvocados extraídos: {len(convocados)}")
-    print(f"Nomes monitorados: {len(nomes)}")
-    print("=" * 60)
+    registrar(f"\nConvocados extraídos: {len(convocados)}")
+    registrar(f"Nomes monitorados: {len(nomes)}")
+    registrar("=" * 60)

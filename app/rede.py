@@ -2,6 +2,8 @@ import re
 import time
 import requests
 
+from logger import registrar
+
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
@@ -10,7 +12,7 @@ HEADERS = {
 def _requisicao(url, timeout=30):
     for tentativa in range(1, 4):
         try:
-            print(f"Acessando: {url}")
+            registrar(f"Acessando: {url}")
 
             resposta = requests.get(
                 url,
@@ -19,23 +21,23 @@ def _requisicao(url, timeout=30):
                 allow_redirects=True
             )
 
-            print("Status:", resposta.status_code)
-            print("URL final:", resposta.url)
+            registrar("Status:", resposta.status_code)
+            registrar("URL final:", resposta.url)
 
             resposta.raise_for_status()
 
             return resposta
 
         except requests.exceptions.RequestException as e:
-            print(f"Tentativa {tentativa}/3 falhou.")
-            print(type(e).__name__)
-            print(e)
+            registrar(f"Tentativa {tentativa}/3 falhou.")
+            registrar(type(e).__name__)
+            registrar(e)
 
             if tentativa < 3:
-                print("Nova tentativa em 5 segundos...")
+                registrar("Nova tentativa em 5 segundos...")
                 time.sleep(5)
             else:
-                print("Falha definitiva.")
+                registrar("Falha definitiva.")
                 return None
 
 
@@ -70,7 +72,7 @@ def resolver_url_pdf(url):
     )
 
     if not match:
-        print("PDF não encontrado na página de redirecionamento.")
+        registrar("PDF não encontrado na página de redirecionamento.")
         return None
 
     pdf = match.group(1)

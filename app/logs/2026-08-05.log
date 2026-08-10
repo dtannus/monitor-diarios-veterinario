@@ -1,0 +1,118 @@
+[05/08/2026 19:00:02] ==================================================
+[05/08/2026 19:00:02] MONITOR DE DIÁRIOS OFICIAIS
+[05/08/2026 19:00:02] ==================================================
+[05/08/2026 19:00:02] Início: 05/08/2026 19:00:02
+[05/08/2026 19:00:03] Iniciando monitoramento...
+[05/08/2026 19:00:03] Acessando: https://portal-adm.campinas.sp.gov.br/api/v2/publicacoes-dom
+[05/08/2026 19:00:04] Status: 200
+[05/08/2026 19:00:04] URL final: https://portal-adm.campinas.sp.gov.br/api/v2/publicacoes-dom
+[05/08/2026 19:00:04] 
+[05/08/2026 19:00:04] Acessando Jornal do Município de Sorocaba...
+[05/08/2026 19:00:04] Acessando: https://noticias.sorocaba.sp.gov.br/jornal/
+[05/08/2026 19:00:04] Status: 200
+[05/08/2026 19:00:04] URL final: https://noticias.sorocaba.sp.gov.br/jornal/
+[05/08/2026 19:00:04] Última edição analisada: 4007
+[05/08/2026 19:00:04] Edições encontradas: [4004, 4004, 4005, 4005, 4005, 4006, 4007, 4008, 4008]
+[05/08/2026 19:00:04] Novas edições: [4008, 4008]
+[05/08/2026 19:00:04] Foram encontradas 2 edição(ões) nova(s).
+[05/08/2026 19:00:04] 
+========================================
+[05/08/2026 19:00:04] Sorocaba - Edição 4008 - 05/AGOSTO/2026
+[05/08/2026 19:00:04] ========================================
+[05/08/2026 19:00:04] URL do PDF: https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2026/08/4008-05-DE-AGOSTO-DE-2026.pdf
+[05/08/2026 19:00:04] Baixando PDF...
+[05/08/2026 19:00:04] Acessando: https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2026/08/4008-05-DE-AGOSTO-DE-2026.pdf
+[05/08/2026 19:00:05] Status: 200
+[05/08/2026 19:00:05] URL final: https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2026/08/4008-05-DE-AGOSTO-DE-2026.pdf
+[05/08/2026 19:00:05] Extraindo texto...
+[05/08/2026 19:00:10] 
+============================================================
+[05/08/2026 19:00:10] DEBUG
+[05/08/2026 19:00:10] ============================================================
+[05/08/2026 19:00:10] Tamanho do texto: 80812 caracteres
+[05/08/2026 19:00:10] 
+Ocorrências dos cargos:
+[05/08/2026 19:00:10] Nenhuma ocorrência de Médico Veterinário.
+[05/08/2026 19:00:10] 
+Convocados extraídos: 0
+[05/08/2026 19:00:10] Nomes monitorados: 0
+[05/08/2026 19:00:10] ============================================================
+[05/08/2026 19:00:10] 
+✅ Nenhuma convocação encontrada.
+[05/08/2026 19:00:10] 
+👤 Nenhum nome monitorado encontrado.
+[05/08/2026 19:00:10] Atualizando controle: Sorocaba -> edição 4008
+[05/08/2026 19:00:10] Controle atualizado com sucesso: Sorocaba -> edição 4008
+[05/08/2026 19:00:10] 
+========================================
+[05/08/2026 19:00:10] Sorocaba - Edição 4008 - 05/AGOSTO/2026
+[05/08/2026 19:00:10] ========================================
+[05/08/2026 19:00:10] URL do PDF: https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2026/08/Edital-Divulgacao-Analise-Recursos-ref-Gabarito-e-Resultado-Prova-Objetiva_Classificacao-Previa.pdf
+[05/08/2026 19:00:10] Baixando PDF...
+[05/08/2026 19:00:11] Acessando: https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2026/08/Edital-Divulgacao-Analise-Recursos-ref-Gabarito-e-Resultado-Prova-Objetiva_Classificacao-Previa.pdf
+[05/08/2026 19:00:11] Status: 200
+[05/08/2026 19:00:11] URL final: https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2026/08/Edital-Divulgacao-Analise-Recursos-ref-Gabarito-e-Resultado-Prova-Objetiva_Classificacao-Previa.pdf
+[05/08/2026 19:00:11] Extraindo texto...
+[05/08/2026 19:00:31] 
+============================================================
+[05/08/2026 19:00:31] DEBUG
+[05/08/2026 19:00:31] ============================================================
+[05/08/2026 19:00:31] Tamanho do texto: 242522 caracteres
+[05/08/2026 19:00:31] 
+Ocorrências dos cargos:
+[05/08/2026 19:00:31] Nenhuma ocorrência de Médico Veterinário.
+[05/08/2026 19:00:31] 
+Convocados extraídos: 0
+[05/08/2026 19:00:31] Nomes monitorados: 0
+[05/08/2026 19:00:31] ============================================================
+[05/08/2026 19:00:31] 
+✅ Nenhuma convocação encontrada.
+[05/08/2026 19:00:31] 
+👤 Nenhum nome monitorado encontrado.
+[05/08/2026 19:00:31] Atualizando controle: Sorocaba -> edição 4008
+[05/08/2026 19:00:31] Controle atualizado com sucesso: Sorocaba -> edição 4008
+[05/08/2026 19:00:31] 
+[05/08/2026 19:00:31] Acessando Diário Oficial de Vinhedo...
+[05/08/2026 19:00:31] Acessando: https://www.vinhedo.sp.gov.br/portal/diario-oficial
+[05/08/2026 19:00:32] Status: 200
+[05/08/2026 19:00:32] URL final: https://www.vinhedo.sp.gov.br/portal/diario-oficial
+[05/08/2026 19:00:32] Última edição analisada: 2536
+[05/08/2026 19:00:32] Edições encontradas: [2488, 2489, 2490, 2491, 2492, 2493, 2494, 2495, 2496, 2497, 2498, 2499, 2500, 2501, 2502, 2503, 2504, 2505, 2506, 2507, 2508, 2509, 2510, 2511, 2512, 2513, 2514, 2515, 2516, 2517, 2518, 2519, 2520, 2521, 2522, 2523, 2524, 2525, 2526, 2527, 2528, 2529, 2530, 2531, 2532, 2533, 2534, 2535, 2536, 2537]
+[05/08/2026 19:00:32] Novas edições: [2537]
+[05/08/2026 19:00:32] Foram encontradas 1 edição(ões) nova(s).
+[05/08/2026 19:00:32] Acessando: https://www.vinhedo.sp.gov.br/portal/download/diario-oficial/Kq-LxL/
+[05/08/2026 19:00:32] Status: 200
+[05/08/2026 19:00:32] URL final: https://www.vinhedo.sp.gov.br/portal/download/diario-oficial/Kq-LxL/
+[05/08/2026 19:00:32] 
+========================================
+[05/08/2026 19:00:32] Vinhedo - Edição 2537 - 05/08/2026 às 16h04
+[05/08/2026 19:00:32] ========================================
+[05/08/2026 19:00:32] URL do PDF: https://www.vinhedo.sp.gov.br/uploads/diario_20264005160478ae5cf9f673461f9f4e7cf1b582a82c.pdf
+[05/08/2026 19:00:32] Baixando PDF...
+[05/08/2026 19:00:32] Acessando: https://www.vinhedo.sp.gov.br/uploads/diario_20264005160478ae5cf9f673461f9f4e7cf1b582a82c.pdf
+[05/08/2026 19:00:33] Status: 200
+[05/08/2026 19:00:33] URL final: https://www.vinhedo.sp.gov.br/uploads/diario_20264005160478ae5cf9f673461f9f4e7cf1b582a82c.pdf
+[05/08/2026 19:00:33] Extraindo texto...
+[05/08/2026 19:00:33] 
+============================================================
+[05/08/2026 19:00:33] DEBUG
+[05/08/2026 19:00:33] ============================================================
+[05/08/2026 19:00:33] Tamanho do texto: 2791 caracteres
+[05/08/2026 19:00:33] 
+Ocorrências dos cargos:
+[05/08/2026 19:00:33] Nenhuma ocorrência de Médico Veterinário.
+[05/08/2026 19:00:33] 
+Convocados extraídos: 0
+[05/08/2026 19:00:33] Nomes monitorados: 0
+[05/08/2026 19:00:33] ============================================================
+[05/08/2026 19:00:33] 
+✅ Nenhuma convocação encontrada.
+[05/08/2026 19:00:33] 
+👤 Nenhum nome monitorado encontrado.
+[05/08/2026 19:00:33] Atualizando controle: Vinhedo -> edição 2537
+[05/08/2026 19:00:33] Controle atualizado com sucesso: Vinhedo -> edição 2537
+[05/08/2026 19:00:33] 
+[05/08/2026 19:00:33] Acessando: https://dom.sumare.sp.gov.br/?edicao=todas
+[05/08/2026 19:00:34] Status: 200
+[05/08/2026 19:00:34] URL final: https://dom.sumare.sp.gov.br/?edicao=todas
+[05/08/2026 19:00:39] 

@@ -2,6 +2,7 @@ from datetime import datetime
 import sys
 import traceback
 
+from logger import registrar
 from buscador import listar_cidades
 from cidades import campinas, sorocaba, vinhedo, sumare
 from telegram import enviar_mensagem
@@ -12,10 +13,10 @@ def iniciar_monitor():
 
     inicio = datetime.now()
 
-    print("=" * 50)
-    print("MONITOR DE DIÁRIOS OFICIAIS")
-    print("=" * 50)
-    print(f"Início: {inicio.strftime('%d/%m/%Y %H:%M:%S')}")
+    registrar("=" * 50)
+    registrar("MONITOR DE DIÁRIOS OFICIAIS")
+    registrar("=" * 50)
+    registrar(f"Início: {inicio.strftime('%d/%m/%Y %H:%M:%S')}")
 
     limpar()
 

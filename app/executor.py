@@ -1,3 +1,4 @@
+from logger import registrar
 from debug import mostrar_debug
 from rede import baixar_pdf
 from extrator_pdf import extrair_texto
@@ -13,30 +14,30 @@ from resumo import adicionar, marcar_convocacao
 
 def executar(cidade, numero, data, url_pdf):
 
-    print("\n========================================")
-    print(f"{cidade} - Edição {numero} - {data}")
-    print("========================================")
+    registrar("\n========================================")
+    registrar(f"{cidade} - Edição {numero} - {data}")
+    registrar("========================================")
 
     adicionar(f"📍 <b>{cidade}</b>")
     adicionar(f"📰 Edição {numero} - {data}")
 
-    print(f"URL do PDF: {url_pdf}")
-    print("Baixando PDF...")
+    registrar(f"URL do PDF: {url_pdf}")
+    registrar("Baixando PDF...")
 
     pdf = baixar_pdf(url_pdf)
 
     if not pdf:
-        print("❌ Erro ao baixar PDF.")
+        registrar("❌ Erro ao baixar PDF.")
         adicionar("❌ Erro ao baixar PDF.")
         adicionar("")
         return
 
-    print("Extraindo texto...")
+    registrar("Extraindo texto...")
 
     texto = extrair_texto(pdf)
 
     if not texto:
-        print("❌ Não foi possível extrair o texto.")
+        registrar("❌ Não foi possível extrair o texto.")
         adicionar("❌ Não foi possível extrair o texto.")
         adicionar("")
         return
@@ -52,54 +53,54 @@ def executar(cidade, numero, data, url_pdf):
     mostrar_debug(texto, convocados, nomes)
 
     if convocados:
-      
+
         marcar_convocacao()
 
-        print(f"\n🐾 {len(convocados)} convocado(s) encontrado(s).\n")
+        registrar(f"\n🐾 {len(convocados)} convocado(s) encontrado(s).\n")
         adicionar(f"🐾 {len(convocados)} convocação(ões) encontrada(s):")
 
         for c in convocados:
-            print("=" * 50)
-            print(f"Nome : {c['nome']}")
-            print(f"Cargo: {c['cargo']}")
-            print(f"Tipo : {c['tipo']}")
-            print("=" * 50)
+            registrar("=" * 50)
+            registrar(f"Nome : {c['nome']}")
+            registrar(f"Cargo: {c['cargo']}")
+            registrar(f"Tipo : {c['tipo']}")
+            registrar("=" * 50)
 
             adicionar(f"• {c['nome']} ({c['cargo']})")
 
     elif resultados:
 
-        print(f"\n⚠️ {len(resultados)} ocorrência(s) encontrada(s).\n")
+        registrar(f"\n⚠️ {len(resultados)} ocorrência(s) encontrada(s).\n")
         adicionar(f"⚠️ {len(resultados)} ocorrência(s) relacionada(s).")
 
         for r in resultados:
-            print("\nCargo:", r["cargo"])
-            print("Termos:", ", ".join(r["termos"]))
-            print("\nTrecho:\n")
-            print(r["trecho"])
-            print("\n" + "-" * 60)
+            registrar("Cargo:", r["cargo"])
+            registrar("Termos:", ", ".join(r["termos"]))
+            registrar("\nTrecho:\n")
+            registrar(r["trecho"])
+            registrar("\n" + "-" * 60)
 
     else:
 
-        print("\n✅ Nenhuma convocação encontrada.")
+        registrar("\n✅ Nenhuma convocação encontrada.")
         adicionar("✅ Nenhuma convocação encontrada.")
 
     if nomes:
 
-        print(f"\n👤 {len(nomes)} nome(s) monitorado(s) encontrado(s).")
+        registrar(f"\n👤 {len(nomes)} nome(s) monitorado(s) encontrado(s).")
         adicionar(f"👤 {len(nomes)} nome(s) monitorado(s):")
 
         for n in nomes:
-            print("\nNome:", n["nome"])
-            print("\nTrecho:\n")
-            print(n["trecho"])
-            print("\n" + "-" * 60)
+            registrar("Nome:", n["nome"])
+            registrar("\nTrecho:\n")
+            registrar(n["trecho"])
+            registrar("\n" + "-" * 60)
 
             adicionar(f"• {n['nome']}")
 
     else:
 
-        print("\n👤 Nenhum nome monitorado encontrado.")
+        registrar("\n👤 Nenhum nome monitorado encontrado.")
         adicionar("👤 Nenhum nome monitorado encontrado.")
 
     adicionar("")
@@ -112,4 +113,8 @@ def executar(cidade, numero, data, url_pdf):
         data
     )
 
+    registrar(f"Atualizando controle: {cidade} -> edição {numero}")
+
     atualizar_edicao(cidade, numero)
+
+    registrar(f"Controle atualizado com sucesso: {cidade} -> edição {numero}")

@@ -1,0 +1,242 @@
+[06/08/2026 10:00:02] ==================================================
+[06/08/2026 10:00:02] MONITOR DE DIÁRIOS OFICIAIS
+[06/08/2026 10:00:02] ==================================================
+[06/08/2026 10:00:02] Início: 06/08/2026 10:00:02
+[06/08/2026 10:00:03] Iniciando monitoramento...
+[06/08/2026 10:00:03] Acessando: https://portal-adm.campinas.sp.gov.br/api/v2/publicacoes-dom
+[06/08/2026 10:00:03] Status: 200
+[06/08/2026 10:00:03] URL final: https://portal-adm.campinas.sp.gov.br/api/v2/publicacoes-dom
+[06/08/2026 10:00:03] 
+========================================
+[06/08/2026 10:00:03] Campinas - Edição 13882 - 06/08/2026
+[06/08/2026 10:00:03] ========================================
+[06/08/2026 10:00:03] URL do PDF: https://portal-adm.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1987251466270814662719872506.pdf
+[06/08/2026 10:00:03] Baixando PDF...
+[06/08/2026 10:00:03] Acessando: https://portal-adm.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1987251466270814662719872506.pdf
+[06/08/2026 10:00:04] Status: 200
+[06/08/2026 10:00:04] URL final: https://portal-adm.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1987251466270814662719872506.pdf
+[06/08/2026 10:00:04] Extraindo texto...
+[06/08/2026 10:00:17] 
+============================================================
+[06/08/2026 10:00:17] DEBUG
+[06/08/2026 10:00:17] ============================================================
+[06/08/2026 10:00:17] Tamanho do texto: 405656 caracteres
+[06/08/2026 10:00:17] 
+Ocorrências dos cargos:
+[06/08/2026 10:00:17]   VETERINÁRIO: 1
+[06/08/2026 10:00:17] 
+Trecho encontrado:
+
+[06/08/2026 10:00:17] dos. Essas tampinhas deixaram de ser lançadas na natureza e nos lixões para contribuir com a sociedade, entidades e ONGs. A comunidade também é convidada a participar desta grande corrente de mobilização, ajudando a garantir alimentação, atendimento veterinário e cuidados com animais resgatados pela ONG, no Parque Portugal (Lagoa do Taquaral). Os recursos arrecadados com a venda das tampinhas e lacres de alumínio são totalmente revertidos à causa desses gatos. A arrecadação de tampinhas plásticas mobiliza os servidores desde a criação do SerSol e tem contribuído com o Projeto Quem Ama Protege, Centro Cultural Louise Braille e a ONG Gatos da Lagoa. Demais entidades, comunidade e outros pontos de arrecadação interessados em receber ou doar as tampinhas para o SerSol podem entrar em contato pelo portal da Prefeitura (campinas.sp.gov.br/serso
+[06/08/2026 10:00:17] 
+------------------------------------------------------------
+[06/08/2026 10:00:17] 
+Convocados extraídos: 0
+[06/08/2026 10:00:17] Nomes monitorados: 0
+[06/08/2026 10:00:17] ============================================================
+[06/08/2026 10:00:17] 
+✅ Nenhuma convocação encontrada.
+[06/08/2026 10:00:17] 
+👤 Nenhum nome monitorado encontrado.
+[06/08/2026 10:00:18] Atualizando controle: Campinas -> edição 13882
+[06/08/2026 10:00:18] Controle atualizado com sucesso: Campinas -> edição 13882
+[06/08/2026 10:00:18] 
+[06/08/2026 10:00:18] Acessando Jornal do Município de Sorocaba...
+[06/08/2026 10:00:18] Acessando: https://noticias.sorocaba.sp.gov.br/jornal/
+[06/08/2026 10:00:18] Status: 200
+[06/08/2026 10:00:18] URL final: https://noticias.sorocaba.sp.gov.br/jornal/
+[06/08/2026 10:00:18] Última edição analisada: 4008
+[06/08/2026 10:00:18] Edições encontradas: [4004, 4004, 4005, 4005, 4005, 4006, 4007, 4008, 4008]
+[06/08/2026 10:00:18] Novas edições: []
+[06/08/2026 10:00:18] ✅ Nenhuma edição nova.
+[06/08/2026 10:00:18] 
+[06/08/2026 10:00:18] Acessando Diário Oficial de Vinhedo...
+[06/08/2026 10:00:18] Acessando: https://www.vinhedo.sp.gov.br/portal/diario-oficial
+[06/08/2026 10:00:19] Status: 200
+[06/08/2026 10:00:19] URL final: https://www.vinhedo.sp.gov.br/portal/diario-oficial
+[06/08/2026 10:00:19] Última edição analisada: 2537
+[06/08/2026 10:00:19] Edições encontradas: [2489, 2490, 2491, 2492, 2493, 2494, 2495, 2496, 2497, 2498, 2499, 2500, 2501, 2502, 2503, 2504, 2505, 2506, 2507, 2508, 2509, 2510, 2511, 2512, 2513, 2514, 2515, 2516, 2517, 2518, 2519, 2520, 2521, 2522, 2523, 2524, 2525, 2526, 2527, 2528, 2529, 2530, 2531, 2532, 2533, 2534, 2535, 2536, 2537, 2538]
+[06/08/2026 10:00:19] Novas edições: [2538]
+[06/08/2026 10:00:19] Foram encontradas 1 edição(ões) nova(s).
+[06/08/2026 10:00:19] Acessando: https://www.vinhedo.sp.gov.br/portal/download/diario-oficial/CC-LxT/
+[06/08/2026 10:00:19] Status: 200
+[06/08/2026 10:00:19] URL final: https://www.vinhedo.sp.gov.br/portal/download/diario-oficial/CC-LxT/
+[06/08/2026 10:00:19] 
+========================================
+[06/08/2026 10:00:19] Vinhedo - Edição 2538 - 06/08/2026 às 08h00
+[06/08/2026 10:00:19] ========================================
+[06/08/2026 10:00:19] URL do PDF: https://www.vinhedo.sp.gov.br/uploads/diario_20263505173004c0cd916565ea1c386d7f006591c74c.pdf
+[06/08/2026 10:00:19] Baixando PDF...
+[06/08/2026 10:00:19] Acessando: https://www.vinhedo.sp.gov.br/uploads/diario_20263505173004c0cd916565ea1c386d7f006591c74c.pdf
+[06/08/2026 10:00:19] Status: 200
+[06/08/2026 10:00:20] URL final: https://www.vinhedo.sp.gov.br/uploads/diario_20263505173004c0cd916565ea1c386d7f006591c74c.pdf
+[06/08/2026 10:00:20] Extraindo texto...
+[06/08/2026 10:00:21] 
+============================================================
+[06/08/2026 10:00:21] DEBUG
+[06/08/2026 10:00:21] ============================================================
+[06/08/2026 10:00:21] Tamanho do texto: 24186 caracteres
+[06/08/2026 10:00:21] 
+Ocorrências dos cargos:
+[06/08/2026 10:00:21] Nenhuma ocorrência de Médico Veterinário.
+[06/08/2026 10:00:21] 
+Convocados extraídos: 0
+[06/08/2026 10:00:21] Nomes monitorados: 0
+[06/08/2026 10:00:21] ============================================================
+[06/08/2026 10:00:21] 
+✅ Nenhuma convocação encontrada.
+[06/08/2026 10:00:21] 
+👤 Nenhum nome monitorado encontrado.
+[06/08/2026 10:00:22] Atualizando controle: Vinhedo -> edição 2538
+[06/08/2026 10:00:22] Controle atualizado com sucesso: Vinhedo -> edição 2538
+[06/08/2026 10:00:22] 
+[06/08/2026 10:00:22] Acessando: https://dom.sumare.sp.gov.br/?edicao=todas
+[06/08/2026 10:00:23] Status: 200
+[06/08/2026 10:00:23] URL final: https://dom.sumare.sp.gov.br/?edicao=todas
+[06/08/2026 10:00:28] 
+========================================
+[06/08/2026 10:00:28] Sumaré - Edição 2194 - 05/08/2026
+[06/08/2026 10:00:28] ========================================
+[06/08/2026 10:00:28] URL do PDF: https://dom.sumare.sp.gov.br/arquivos/diario/diario-2194-891c3ca61e8a1943ec92bbb516467586.pdf
+[06/08/2026 10:00:28] Baixando PDF...
+[06/08/2026 10:00:28] Acessando: https://dom.sumare.sp.gov.br/arquivos/diario/diario-2194-891c3ca61e8a1943ec92bbb516467586.pdf
+[06/08/2026 10:00:28] Status: 200
+[06/08/2026 10:00:28] URL final: https://dom.sumare.sp.gov.br/arquivos/diario/diario-2194-891c3ca61e8a1943ec92bbb516467586.pdf
+[06/08/2026 10:00:29] Extraindo texto...
+[06/08/2026 10:00:36] 
+============================================================
+[06/08/2026 10:00:36] DEBUG
+[06/08/2026 10:00:36] ============================================================
+[06/08/2026 10:00:36] Tamanho do texto: 77799 caracteres
+[06/08/2026 10:00:36] 
+Ocorrências dos cargos:
+[06/08/2026 10:00:36] Nenhuma ocorrência de Médico Veterinário.
+[06/08/2026 10:00:36] 
+Convocados extraídos: 0
+[06/08/2026 10:00:36] Nomes monitorados: 0
+[06/08/2026 10:00:36] ============================================================
+[06/08/2026 10:00:36] 
+✅ Nenhuma convocação encontrada.
+[06/08/2026 10:00:37] 
+👤 Nenhum nome monitorado encontrado.
+[06/08/2026 10:00:37] Atualizando controle: Sumaré -> edição 2194
+[06/08/2026 10:00:37] Controle atualizado com sucesso: Sumaré -> edição 2194
+[06/08/2026 10:00:37] 
+[06/08/2026 19:00:01] ==================================================
+[06/08/2026 19:00:01] MONITOR DE DIÁRIOS OFICIAIS
+[06/08/2026 19:00:01] ==================================================
+[06/08/2026 19:00:01] Início: 06/08/2026 19:00:01
+[06/08/2026 19:00:02] Iniciando monitoramento...
+[06/08/2026 19:00:02] Acessando: https://portal-adm.campinas.sp.gov.br/api/v2/publicacoes-dom
+[06/08/2026 19:00:03] Status: 200
+[06/08/2026 19:00:03] URL final: https://portal-adm.campinas.sp.gov.br/api/v2/publicacoes-dom
+[06/08/2026 19:00:03] 
+[06/08/2026 19:00:03] Acessando Jornal do Município de Sorocaba...
+[06/08/2026 19:00:03] Acessando: https://noticias.sorocaba.sp.gov.br/jornal/
+[06/08/2026 19:00:03] Status: 200
+[06/08/2026 19:00:03] URL final: https://noticias.sorocaba.sp.gov.br/jornal/
+[06/08/2026 19:00:03] Última edição analisada: 4008
+[06/08/2026 19:00:03] Edições encontradas: [4004, 4005, 4005, 4005, 4006, 4007, 4008, 4008, 4009]
+[06/08/2026 19:00:03] Novas edições: [4009]
+[06/08/2026 19:00:03] Foram encontradas 1 edição(ões) nova(s).
+[06/08/2026 19:00:03] 
+========================================
+[06/08/2026 19:00:03] Sorocaba - Edição 4009 - 06/AGOSTO/2026
+[06/08/2026 19:00:03] ========================================
+[06/08/2026 19:00:03] URL do PDF: https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2026/08/4009-06-DE-AGOSTO-DE-2026.pdf
+[06/08/2026 19:00:03] Baixando PDF...
+[06/08/2026 19:00:03] Acessando: https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2026/08/4009-06-DE-AGOSTO-DE-2026.pdf
+[06/08/2026 19:00:03] Status: 200
+[06/08/2026 19:00:03] URL final: https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2026/08/4009-06-DE-AGOSTO-DE-2026.pdf
+[06/08/2026 19:00:03] Extraindo texto...
+[06/08/2026 19:00:09] 
+============================================================
+[06/08/2026 19:00:09] DEBUG
+[06/08/2026 19:00:09] ============================================================
+[06/08/2026 19:00:09] Tamanho do texto: 121042 caracteres
+[06/08/2026 19:00:09] 
+Ocorrências dos cargos:
+[06/08/2026 19:00:09] Nenhuma ocorrência de Médico Veterinário.
+[06/08/2026 19:00:09] 
+Convocados extraídos: 0
+[06/08/2026 19:00:09] Nomes monitorados: 0
+[06/08/2026 19:00:09] ============================================================
+[06/08/2026 19:00:09] 
+✅ Nenhuma convocação encontrada.
+[06/08/2026 19:00:09] 
+👤 Nenhum nome monitorado encontrado.
+[06/08/2026 19:00:09] Atualizando controle: Sorocaba -> edição 4009
+[06/08/2026 19:00:09] Controle atualizado com sucesso: Sorocaba -> edição 4009
+[06/08/2026 19:00:09] 
+[06/08/2026 19:00:09] Acessando Diário Oficial de Vinhedo...
+[06/08/2026 19:00:09] Acessando: https://www.vinhedo.sp.gov.br/portal/diario-oficial
+[06/08/2026 19:00:10] Status: 200
+[06/08/2026 19:00:10] URL final: https://www.vinhedo.sp.gov.br/portal/diario-oficial
+[06/08/2026 19:00:10] Última edição analisada: 2538
+[06/08/2026 19:00:10] Edições encontradas: [2490, 2491, 2492, 2493, 2494, 2495, 2496, 2497, 2498, 2499, 2500, 2501, 2502, 2503, 2504, 2505, 2506, 2507, 2508, 2509, 2510, 2511, 2512, 2513, 2514, 2515, 2516, 2517, 2518, 2519, 2520, 2521, 2522, 2523, 2524, 2525, 2526, 2527, 2528, 2529, 2530, 2531, 2532, 2533, 2534, 2535, 2536, 2537, 2538, 2539]
+[06/08/2026 19:00:10] Novas edições: [2539]
+[06/08/2026 19:00:10] Foram encontradas 1 edição(ões) nova(s).
+[06/08/2026 19:00:10] Acessando: https://www.vinhedo.sp.gov.br/portal/download/diario-oficial/KR-Lxz/
+[06/08/2026 19:00:10] Status: 200
+[06/08/2026 19:00:10] URL final: https://www.vinhedo.sp.gov.br/portal/download/diario-oficial/KR-Lxz/
+[06/08/2026 19:00:10] 
+========================================
+[06/08/2026 19:00:10] Vinhedo - Edição 2539 - 06/08/2026 às 16h23
+[06/08/2026 19:00:10] ========================================
+[06/08/2026 19:00:10] URL do PDF: https://www.vinhedo.sp.gov.br/uploads/diario_202602061627eabdd044c6cd5c3958b12f0c2973b51c.pdf
+[06/08/2026 19:00:10] Baixando PDF...
+[06/08/2026 19:00:10] Acessando: https://www.vinhedo.sp.gov.br/uploads/diario_202602061627eabdd044c6cd5c3958b12f0c2973b51c.pdf
+[06/08/2026 19:00:12] Status: 200
+[06/08/2026 19:00:12] URL final: https://www.vinhedo.sp.gov.br/uploads/diario_202602061627eabdd044c6cd5c3958b12f0c2973b51c.pdf
+[06/08/2026 19:00:12] Extraindo texto...
+[06/08/2026 19:00:12] 
+============================================================
+[06/08/2026 19:00:12] DEBUG
+[06/08/2026 19:00:12] ============================================================
+[06/08/2026 19:00:12] Tamanho do texto: 15941 caracteres
+[06/08/2026 19:00:12] 
+Ocorrências dos cargos:
+[06/08/2026 19:00:12] Nenhuma ocorrência de Médico Veterinário.
+[06/08/2026 19:00:12] 
+Convocados extraídos: 0
+[06/08/2026 19:00:12] Nomes monitorados: 0
+[06/08/2026 19:00:12] ============================================================
+[06/08/2026 19:00:12] 
+✅ Nenhuma convocação encontrada.
+[06/08/2026 19:00:12] 
+👤 Nenhum nome monitorado encontrado.
+[06/08/2026 19:00:13] Atualizando controle: Vinhedo -> edição 2539
+[06/08/2026 19:00:13] Controle atualizado com sucesso: Vinhedo -> edição 2539
+[06/08/2026 19:00:13] 
+[06/08/2026 19:00:13] Acessando: https://dom.sumare.sp.gov.br/?edicao=todas
+[06/08/2026 19:00:14] Status: 200
+[06/08/2026 19:00:14] URL final: https://dom.sumare.sp.gov.br/?edicao=todas
+[06/08/2026 19:00:19] 
+========================================
+[06/08/2026 19:00:19] Sumaré - Edição 2195 - 06/08/2026
+[06/08/2026 19:00:19] ========================================
+[06/08/2026 19:00:19] URL do PDF: https://dom.sumare.sp.gov.br/arquivos/diario/diario-2195-6d1f93865bba706c1fdd3f691a308416.pdf
+[06/08/2026 19:00:19] Baixando PDF...
+[06/08/2026 19:00:19] Acessando: https://dom.sumare.sp.gov.br/arquivos/diario/diario-2195-6d1f93865bba706c1fdd3f691a308416.pdf
+[06/08/2026 19:00:19] Status: 200
+[06/08/2026 19:00:19] URL final: https://dom.sumare.sp.gov.br/arquivos/diario/diario-2195-6d1f93865bba706c1fdd3f691a308416.pdf
+[06/08/2026 19:00:19] Extraindo texto...
+[06/08/2026 19:00:20] 
+============================================================
+[06/08/2026 19:00:20] DEBUG
+[06/08/2026 19:00:20] ============================================================
+[06/08/2026 19:00:20] Tamanho do texto: 15310 caracteres
+[06/08/2026 19:00:20] 
+Ocorrências dos cargos:
+[06/08/2026 19:00:20] Nenhuma ocorrência de Médico Veterinário.
+[06/08/2026 19:00:20] 
+Convocados extraídos: 0
+[06/08/2026 19:00:20] Nomes monitorados: 0
+[06/08/2026 19:00:20] ============================================================
+[06/08/2026 19:00:20] 
+✅ Nenhuma convocação encontrada.
+[06/08/2026 19:00:20] 
+👤 Nenhum nome monitorado encontrado.
+[06/08/2026 19:00:21] Atualizando controle: Sumaré -> edição 2195
+[06/08/2026 19:00:21] Controle atualizado com sucesso: Sumaré -> edição 2195
+[06/08/2026 19:00:21] 

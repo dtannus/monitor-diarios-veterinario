@@ -6,11 +6,12 @@ from cidades import vinhedo
 from cidades import sumare
 
 from resumo import adicionar
+from logger import registrar
 
 
 def listar_cidades():
 
-    print("Iniciando monitoramento...\n")
+    registrar("Iniciando monitoramento...")
 
     resumo = ResumoExecucao()
 
@@ -21,12 +22,15 @@ def listar_cidades():
 
             resumo.cidades.append(resultado)
 
-        except Exception as e:
+        except BaseException as e:
+
+            registrar("Entrou no except do buscador.")
+
             nome_cidade = modulo.__name__.split(".")[-1]
 
-            print(f"❌ Erro ao processar {nome_cidade}:")
-            print(type(e).__name__)
-            print(e)
+            registrar(f"❌ Erro ao processar {nome_cidade}:")
+            registrar(type(e).__name__)
+            registrar(e)
 
             resultado = ResultadoCidade(cidade=nome_cidade)
             resultado.erros.append(f"{type(e).__name__}: {e}")
@@ -37,6 +41,6 @@ def listar_cidades():
                 f"❌ <b>{nome_cidade.capitalize()}</b>: não foi possível verificar o Diário Oficial."
             )
 
-        print()
+        registrar("")
 
     return resumo

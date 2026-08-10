@@ -4829,5 +4829,205 @@
         "data_publicacao": "04/08/2026 às 08h00",
         "convocacoes": [],
         "nomes_encontrados": []
+    },
+    {
+        "data_busca": "04/08/2026 18:00:06",
+        "cidade": "Vinhedo",
+        "edicao": 2535,
+        "data_publicacao": "04/08/2026 às 16h21",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "04/08/2026 18:00:18",
+        "cidade": "Sumaré",
+        "edicao": "2193",
+        "data_publicacao": "04/08/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "05/08/2026 10:00:51",
+        "cidade": "Sorocaba",
+        "edicao": 4007,
+        "data_publicacao": "04/AGOSTO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "05/08/2026 10:01:28",
+        "cidade": "Vinhedo",
+        "edicao": 2536,
+        "data_publicacao": "05/08/2026 às 08h00",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "05/08/2026 10:12:40",
+        "cidade": "Campinas",
+        "edicao": "13881",
+        "data_publicacao": "05/08/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "05/08/2026 19:00:10",
+        "cidade": "Sorocaba",
+        "edicao": 4008,
+        "data_publicacao": "05/AGOSTO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "05/08/2026 19:00:31",
+        "cidade": "Sorocaba",
+        "edicao": 4008,
+        "data_publicacao": "05/AGOSTO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "05/08/2026 19:00:33",
+        "cidade": "Vinhedo",
+        "edicao": 2537,
+        "data_publicacao": "05/08/2026 às 16h04",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "06/08/2026 10:00:17",
+        "cidade": "Campinas",
+        "edicao": "13882",
+        "data_publicacao": "06/08/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "06/08/2026 10:00:21",
+        "cidade": "Vinhedo",
+        "edicao": 2538,
+        "data_publicacao": "06/08/2026 às 08h00",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "06/08/2026 10:00:37",
+        "cidade": "Sumaré",
+        "edicao": "2194",
+        "data_publicacao": "05/08/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "06/08/2026 19:00:09",
+        "cidade": "Sorocaba",
+        "edicao": 4009,
+        "data_publicacao": "06/AGOSTO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "06/08/2026 19:00:12",
+        "cidade": "Vinhedo",
+        "edicao": 2539,
+        "data_publicacao": "06/08/2026 às 16h23",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "06/08/2026 19:00:20",
+        "cidade": "Sumaré",
+        "edicao": "2195",
+        "data_publicacao": "06/08/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "07/08/2026 10:00:35",
+        "cidade": "Campinas",
+        "edicao": "13883",
+        "data_publicacao": "07/08/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "07/08/2026 10:07:53",
+        "cidade": "Vinhedo",
+        "edicao": 2540,
+        "data_publicacao": "07/08/2026 às 08h00",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "07/08/2026 11:26:40",
+        "cidade": "Campinas",
+        "edicao": "13882",
+        "data_publicacao": "06/08/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "07/08/2026 11:26:51",
+        "cidade": "Campinas",
+        "edicao": "13883",
+        "data_publicacao": "07/08/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "07/08/2026 11:27:19",
+        "cidade": "Vinhedo",
+        "edicao": 2539,
+        "data_publicacao": "06/08/2026 às 16h23",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "07/08/2026 11:34:49",
+        "cidade": "Vinhedo",
+        "edicao": 2540,
+        "data_publicacao": "07/08/2026 às 08h00",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "07/08/2026 11:35:06",
+        "cidade": "Sumaré",
+        "edicao": "2194",
+        "data_publicacao": "05/08/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "07/08/2026 11:35:09",
+        "cidade": "Sumaré",
+        "edicao": "2195",
+        "data_publicacao": "06/08/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "07/08/2026 19:00:05",
+        "cidade": "Vinhedo",
+        "edicao": 2541,
+        "data_publicacao": "07/08/2026 às 16h25",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "07/08/2026 19:00:15",
+        "cidade": "Sumaré",
+        "edicao": "2196",
+        "data_publicacao": "07/08/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
+    },
+    {
+        "data_busca": "10/08/2026 00:20:18",
+        "cidade": "Sorocaba",
+        "edicao": 4010,
+        "data_publicacao": "07/AGOSTO/2026",
+        "convocacoes": [],
+        "nomes_encontrados": []
     }
 ]
