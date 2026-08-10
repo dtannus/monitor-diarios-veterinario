@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+logs/
+app/logs/
+
+# Dados gerados pelo monitor
+dados/controle.json
+dados/historico.json
+dados/pdfs/
+
+# Arquivos locais
+.env
+*.secret
