@@ -1,11 +1,8 @@
 CIDADES = [
     "Campinas",
     "Sorocaba",
-    "Sumaré",
-    "Monte Mor",
-    "Salto",
-    "Jarinu",
-    "Ipero"
+    "Vinhedo",
+    "Sumaré"
 ]
 
 CARGOS_PRINCIPAIS = [
