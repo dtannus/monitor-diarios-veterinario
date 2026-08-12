@@ -2,7 +2,6 @@ from logger import registrar
 from rede import baixar_pagina
 from executor import executar
 from controle import ultima_edicao
-from modelos import ResultadoCidade
 from resumo import adicionar
 import re
 
@@ -54,9 +53,6 @@ def buscar():
 
     if not html:
         registrar("❌ Não foi possível acessar o portal.")
-
-        resultado = ResultadoCidade(cidade="Sorocaba")
-        resultado.erros.append("Não foi possível verificar o Diário Oficial.")
 
         adicionar(
             "❌ <b>Sorocaba</b>: não foi possível verificar o Diário Oficial."

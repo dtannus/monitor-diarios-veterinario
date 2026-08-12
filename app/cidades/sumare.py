@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 from executor import executar
 from controle import ultima_edicao
 from rede import baixar_pagina
-from modelos import ResultadoCidade
 from resumo import adicionar
 from edicoes import chave_ordenacao
+
 
 URL = "https://dom.sumare.sp.gov.br/?edicao=todas"
 
@@ -69,14 +69,11 @@ def buscar():
     if not html:
         print("❌ Não foi possível acessar o Diário Oficial de Sumaré.")
 
-        resultado = ResultadoCidade(cidade="Sumaré")
-        resultado.erros.append("Não foi possível verificar o Diário Oficial.")
-
         adicionar(
             "❌ <b>Sumaré</b>: não foi possível verificar o Diário Oficial."
         )
 
-        return resultado
+        return
 
     ultima = ultima_edicao("Sumaré")
 
@@ -87,14 +84,11 @@ def buscar():
     if not edicoes:
         print("❌ Nenhuma edição encontrada.")
 
-        resultado = ResultadoCidade(cidade="Sumaré")
-        resultado.erros.append("Nenhuma edição encontrada.")
-
         adicionar(
             "❌ <b>Sumaré</b>: nenhuma edição foi encontrada."
         )
 
-        return resultado
+        return
 
     novas = []
 
@@ -131,7 +125,12 @@ def buscar():
 
     if ultima_processada is not None:
         from controle import atualizar_edicao
-        atualizar_edicao("Sumaré", int(ultima_processada))
+
+        atualizar_edicao(
+            "Sumaré",
+            int(ultima_processada)
+        )
+
 
 def testar_edicao(numero):
 

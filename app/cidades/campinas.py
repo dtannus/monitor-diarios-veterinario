@@ -1,7 +1,6 @@
 from rede import baixar_pagina
 from executor import executar
 from controle import ultima_edicao
-from modelos import ResultadoCidade
 from resumo import adicionar
 import json
 
@@ -33,9 +32,6 @@ def buscar():
     if not resposta:
         print("❌ Não foi possível acessar a API.")
 
-        resultado = ResultadoCidade(cidade="Campinas")
-        resultado.erros.append("Não foi possível verificar o Diário Oficial.")
-
         adicionar(
             "❌ <b>Campinas</b>: não foi possível verificar o Diário Oficial."
         )
@@ -46,9 +42,6 @@ def buscar():
 
     if "rows" not in dados:
         print("❌ API retornou um formato inesperado.")
-
-        resultado = ResultadoCidade(cidade="Campinas")
-        resultado.erros.append("Formato inesperado da API.")
 
         adicionar(
             "❌ <b>Campinas</b>: não foi possível verificar o Diário Oficial."

@@ -2,7 +2,6 @@ from logger import registrar
 from rede import baixar_pagina, resolver_url_pdf
 from executor import executar
 from controle import ultima_edicao
-from modelos import ResultadoCidade
 from resumo import adicionar
 import re
 
@@ -78,9 +77,6 @@ def buscar():
     if not html:
         registrar("❌ Não foi possível acessar o portal.")
 
-        resultado = ResultadoCidade(cidade="Vinhedo")
-        resultado.erros.append("Não foi possível verificar o Diário Oficial.")
-
         adicionar(
             "❌ <b>Vinhedo</b>: não foi possível verificar o Diário Oficial."
         )
@@ -97,9 +93,6 @@ def buscar():
 
     if not edicoes:
         registrar("❌ Nenhuma edição encontrada.")
-
-        resultado = ResultadoCidade(cidade="Vinhedo")
-        resultado.erros.append("Nenhuma edição encontrada.")
 
         adicionar(
             "❌ <b>Vinhedo</b>: nenhuma edição foi encontrada."
