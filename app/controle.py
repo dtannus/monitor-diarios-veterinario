@@ -3,7 +3,10 @@ import os
 
 BASE = os.path.dirname(os.path.dirname(__file__))
 
-ARQUIVO = os.path.join(BASE, "dados", "controle.json")
+if os.getenv("MONITOR_AMBIENTE") == "github":
+    ARQUIVO = os.path.join(BASE, "dados", "controle_github.json")
+else:
+    ARQUIVO = os.path.join(BASE, "dados", "controle.json")
 
 
 def ler_controle():
