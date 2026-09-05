@@ -1,4 +1,5 @@
 from datetime import datetime
+from zoneinfo import ZoneInfo
 import sys
 import traceback
 
@@ -11,7 +12,7 @@ from resumo import limpar, obter, tem_convocacao
 
 def iniciar_monitor():
 
-    inicio = datetime.now()
+    inicio = datetime.now(ZoneInfo("America/Sao_Paulo"))
 
     registrar("=" * 50)
     registrar("MONITOR DE DIÁRIOS OFICIAIS")
@@ -85,7 +86,7 @@ def iniciar_monitor():
                 "ℹ️ <b>Nenhuma edição nova foi encontrada para análise.</b>"
             )
 
-        fim = datetime.now()
+        fim = datetime.now(ZoneInfo("America/Sao_Paulo"))
         duracao = fim - inicio
 
         enviar_mensagem(

@@ -1,6 +1,7 @@
 import json
 import os
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 BASE = os.path.dirname(os.path.dirname(__file__))
 
@@ -16,7 +17,7 @@ def salvar_resultado(
 ):
 
     registro = {
-        "data_busca": datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
+        "data_busca": datetime.now(ZoneInfo("America/Sao_Paulo")).strftime("%d/%m/%Y %H:%M:%S"),
         "cidade": cidade,
         "edicao": edicao,
         "data_publicacao": data_publicacao,
