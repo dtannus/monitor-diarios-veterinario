@@ -36,7 +36,7 @@ def buscar():
             "❌ <b>Campinas</b>: não foi possível verificar o Diário Oficial."
         )
 
-        return resultado
+        return
 
     dados = json.loads(resposta)
 
@@ -47,7 +47,7 @@ def buscar():
             "❌ <b>Campinas</b>: não foi possível verificar o Diário Oficial."
         )
 
-        return resultado
+        return
 
     ultima = ultima_edicao("Campinas")
 

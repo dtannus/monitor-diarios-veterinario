@@ -2,6 +2,7 @@ from cidades import campinas
 from cidades import sorocaba
 from cidades import vinhedo
 from cidades import sumare
+from cidades import itupeva
 
 from resumo import adicionar
 from logger import registrar
@@ -15,6 +16,7 @@ def listar_cidades():
         sorocaba,
         vinhedo,
         sumare,
+        itupeva,
     )
 
     for modulo in cidades:

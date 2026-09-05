@@ -4,7 +4,7 @@ import traceback
 
 from logger import registrar
 from buscador import listar_cidades
-from cidades import campinas, sorocaba, vinhedo, sumare
+from cidades import campinas, sorocaba, vinhedo, sumare, itupeva
 from telegram import enviar_mensagem
 from resumo import limpar, obter, tem_convocacao
 
@@ -46,6 +46,9 @@ def iniciar_monitor():
 
             elif cidade == "sumare":
                 sumare.testar_edicao(numero)
+              
+            elif cidade == "itupeva":
+                itupeva.testar_edicao(numero)
 
             else:
                 print(f"❌ Cidade '{cidade}' não cadastrada.")
